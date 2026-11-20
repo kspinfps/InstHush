@@ -1,0 +1,6 @@
+.iy-dock-host {
+  position: fixed;
+  z-index: 2147483001;
+  inset: auto;
+  pointer-events: none;
+}

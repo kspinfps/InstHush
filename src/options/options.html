@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>InstHush</title>
+  <link rel="stylesheet" href="options.css">
+  <script src="../lib/themes.js" defer></script>
+  <script src="../lib/favorites.js" defer></script>
+  <script src="../lib/media.js" defer></script>
+  <script src="../lib/filename.js" defer></script>
+  <script src="../content/timer.js" defer></script>
+  <script src="../lib/settings-schema.js" defer></script>
+  <script src="../lib/sync.js" defer></script>
+  <script src="../lib/health.js" defer></script>
+  <script src="health.js" defer></script>
+  <script src="../popup/backup.js" defer></script>
+  <script src="options.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content" data-i18n="optSkip"></a>
+  <div class="shell">
+    <header class="page-header">
+      <svg class="brand-mark" width="32" height="32" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path class="logo-shell" d="M2.5 14.5V7a5.5 5.5 0 0 1 11 0v7.5l-2.5-1-3 1-3-1Z"/>
+        <path class="logo-play" d="m7 5 4 3-4 3Z"/>
+      </svg>
+      <div class="identity">
+        <p class="brand-name" data-i18n="extName"></p>
+        <h1 data-i18n="optTitle"></h1>
+      </div>
+      <span id="sync-pill" class="sync-pill" hidden>
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 6.5A5 5 0 0 0 3.6 5M3 9.5a5 5 0 0 0 9.4 1.5"/><path d="M3.25 2.5v2.75H6M12.75 13.5v-2.75H10"/></svg>
+        <span data-i18n="optSyncActive"></span>
+      </span>
+      <span class="local-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+        <span data-i18n="popupLocalChip"></span>
+      </span>
+    </header>
+
+    <div class="search" role="search">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
+      <label for="search" class="sr-only" data-i18n="optSearchLabel"></label>
+      <input id="search" type="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="optSearchPlaceholder">
+      <button id="search-clear" class="search-clear" type="button" data-i18n-label="optSearchClear" hidden>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg>
+      </button>
+    </div>
+    <p id="search-status" class="sr-only" role="status" aria-live="polite"></p>
+
+    <div class="layout">
+      <nav class="sidebar" aria-labelledby="nav-heading">
+        <h2 id="nav-heading" class="sr-only" data-i18n="optNavLabel"></h2>
+        <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+          <span class="nav-toggle-label"><span data-i18n="optNavLabel"></span>: <span id="nav-current"></span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4"/></svg>
+        </button>
+        <ul id="nav-list" class="nav-list" data-open="false"></ul>
+      </nav>
+      <main id="content" class="content" tabindex="-1"></main>
+    </div>
+
+    <div class="footer">
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <button id="load-retry" class="btn" type="button" data-i18n="optRetry" hidden></button>
+      <a class="signature" href="https://github.com/kspinfps" target="_blank" rel="noopener"><img src="../../assets/kspin.png" width="20" height="20" alt=""><span data-i18n="creditAuthor"></span></a>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <dialog id="dialog" class="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-desc" class="description"></p>
+    <div id="dialog-body" class="dialog-body"></div>
+    <div id="dialog-actions" class="dialog-actions"></div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,2842 @@
+{
+  "creditAuthor": {
+    "message": "Hazırlayan KSPIN"
+  },
+  "extName": {
+    "message": "InstHush",
+    "description": "Extension name shown in the Chrome toolbar and store."
+  },
+  "extDesc": {
+    "message": "Instagram için cihazda hayalet modu, video araçları ve reklam engeli",
+    "description": "Extension description shown in the Chrome store and extensions page."
+  },
+  "popupTitle": {
+    "message": "InstHush",
+    "description": "Popup header title."
+  },
+  "popupLocal": {
+    "message": "Tamamen yerel",
+    "description": "Small badge in the popup header."
+  },
+  "popupLocalChip": {
+    "message": "Yalnızca cihazda",
+    "description": "Small chip in the popup header stating that data stays on the device."
+  },
+  "popupGhostMode": {
+    "message": "Gizli mod",
+    "description": "Heading of the ghost mode card."
+  },
+  "popupGhostOn": {
+    "message": "Gizli mod açık",
+    "description": "Status shown when ghost mode is enabled."
+  },
+  "popupGhostOff": {
+    "message": "Gizli mod kapalı",
+    "description": "Status shown when ghost mode is disabled."
+  },
+  "popupGhostEnableAll": {
+    "message": "Tümünü aç",
+    "description": "Ghost mode master button label to enable both ghost settings."
+  },
+  "popupGhostDisableAll": {
+    "message": "Tümünü kapat",
+    "description": "Ghost mode master button label to disable all ghost settings."
+  },
+  "popupSettings": {
+    "message": "Ayarlar",
+    "description": "Screen-reader heading for the settings section."
+  },
+  "popupVideo": {
+    "message": "Video kontrolleri",
+    "description": "Label of the video controls setting."
+  },
+  "popupVideoDesc": {
+    "message": "Hız, sarma, döngü ve indirme.",
+    "description": "Description under the video controls setting."
+  },
+  "popupAds": {
+    "message": "Reklam engelleme",
+    "description": "Label of the ad blocking setting."
+  },
+  "popupAdsDesc": {
+    "message": "Akış, hikâye ve reels reklamlarını gizler.",
+    "description": "Description under the ad blocking setting."
+  },
+  "popupGhostStory": {
+    "message": "Hikâye ghost",
+    "description": "Label of the story ghost setting."
+  },
+  "popupGhostStoryDesc": {
+    "message": "Hikâyelerde görüldü bilgisini gizler.",
+    "description": "Description under the story ghost setting."
+  },
+  "popupGhostStoryShort": {
+    "message": "Görüldü gönderilmez",
+    "description": "Short description under the story ghost setting."
+  },
+  "popupGhostDm": {
+    "message": "DM ghost",
+    "description": "Label of the DM ghost setting."
+  },
+  "popupGhostDmDesc": {
+    "message": "Mesajlarda okundu bilgisini gizler.",
+    "description": "Description under the DM ghost setting."
+  },
+  "popupGhostDmShort": {
+    "message": "Okundu gönderilmez",
+    "description": "Short description under the DM ghost setting."
+  },
+  "popupActivity": {
+    "message": "Yerel sayaçlar",
+    "description": "Heading of the local counters section."
+  },
+  "popupLastDay": {
+    "message": "Durum: son 24 saat",
+    "description": "Caption next to the local counters heading."
+  },
+  "popupStatsEmpty": {
+    "message": "Instagram'ı açınca sayaçlar dolar",
+    "description": "Shown when the local counters have no events yet."
+  },
+  "popupAdsBlocked": {
+    "message": "Engellenen reklam",
+    "description": "Label of the blocked ads counter."
+  },
+  "popupStoriesHidden": {
+    "message": "Görüldü bilgisi gizlenen hikâye",
+    "description": "Label of the hidden story views counter."
+  },
+  "popupDmsHidden": {
+    "message": "Gizlenen DM okundusu",
+    "description": "Label of the hidden DM reads counter."
+  },
+  "popupActive": {
+    "message": "Çalışıyor",
+    "description": "Status shown when a filter is active within the last 24 hours."
+  },
+  "popupWaiting": {
+    "message": "Bekliyor",
+    "description": "Status shown when a filter has not run yet."
+  },
+  "popupNoMatch": {
+    "message": "Henüz eşleşme yok",
+    "description": "Status shown when a filter has not matched anything."
+  },
+  "popupLeak": {
+    "message": "Bazı DM okundu sinyalleri gizlenemedi.",
+    "description": "Warning note under the counters when DM read signals leaked."
+  },
+  "popupShortcuts": {
+    "message": "Video kısayolları",
+    "description": "Heading of the keyboard shortcuts section."
+  },
+  "popupSpeed": {
+    "message": "Oynatma hızı",
+    "description": "Shortcut row label for playback speed."
+  },
+  "popupSpeedKeys": {
+    "message": "Shift + . / Shift + ,",
+    "description": "Key combination shown for playback speed."
+  },
+  "popupSeek": {
+    "message": "5 saniye sar",
+    "description": "Shortcut row label for seeking."
+  },
+  "popupSeekKeys": {
+    "message": "← / →",
+    "description": "Key combination shown for seeking."
+  },
+  "popupLoop": {
+    "message": "Döngü",
+    "description": "Shortcut row label for loop."
+  },
+  "popupLoopKey": {
+    "message": "L",
+    "description": "Key shown for loop."
+  },
+  "popupPip": {
+    "message": "Resim içinde resim",
+    "description": "Shortcut row label for picture in picture."
+  },
+  "popupPipKey": {
+    "message": "P",
+    "description": "Key shown for picture in picture."
+  },
+  "popupDownload": {
+    "message": "İndir",
+    "description": "Shortcut row label for download."
+  },
+  "popupDownloadKey": {
+    "message": "D",
+    "description": "Key shown for download."
+  },
+  "popupIdm": {
+    "message": "IDM videoyu yakalar; fotoğraf için IDM dosya türlerine jpg/webp ekleyin.",
+    "description": "Note about downloading with IDM."
+  },
+  "popupIdmShort": {
+    "message": "IDM: video hazır · Fotoğraf için jpg/webp türlerini ekleyin.",
+    "description": "Short IDM note in the popup footer."
+  },
+  "popupStorageError": {
+    "message": "Ayarlar okunamadı; pencereyi yeniden açın.",
+    "description": "Error message when stored settings cannot be read."
+  },
+  "popupSaveError": {
+    "message": "Ayar kaydedilemedi; tekrar deneyin.",
+    "description": "Error message when a setting cannot be saved."
+  },
+  "popupBackupExport": {
+    "message": "Ayarları dışa aktar"
+  },
+  "popupBackupImport": {
+    "message": "Ayarları içe aktar"
+  },
+  "popupBackupExported": {
+    "message": "Ayar yedeği indiriliyor."
+  },
+  "popupBackupImported": {
+    "message": "Ayarlar içe aktarıldı."
+  },
+  "popupBackupTooBig": {
+    "message": "Yedek dosyası 256 KiB sınırını aşıyor."
+  },
+  "popupBackupBadJson": {
+    "message": "Dosya geçerli bir JSON dosyası değil."
+  },
+  "popupBackupBadKind": {
+    "message": "Bu dosya bir InstHush ayar yedeği değil."
+  },
+  "popupBackupBadVersion": {
+    "message": "Bu yedek sürümü desteklenmiyor."
+  },
+  "popupBackupBadShape": {
+    "message": "Yedek dosyasının ayar yapısı geçersiz."
+  },
+  "popupBackupReadError": {
+    "message": "Yedek dosyası okunamadı; tekrar deneyin."
+  },
+  "popupBackupExportError": {
+    "message": "Ayar yedeği oluşturulamadı; tekrar deneyin."
+  },
+  "videoSpeed": {
+    "message": "Hız",
+    "description": "Accessible label of the playback speed button on the video bar."
+  },
+  "videoBack": {
+    "message": "5 saniye geri",
+    "description": "Accessible label of the rewind button on the video bar."
+  },
+  "videoForward": {
+    "message": "5 saniye ileri",
+    "description": "Accessible label of the forward button on the video bar."
+  },
+  "videoProgress": {
+    "message": "İlerleme",
+    "description": "Accessible label of the progress slider on the video bar."
+  },
+  "videoVolume": {
+    "message": "Ses",
+    "description": "Accessible label of the volume slider on the video bar."
+  },
+  "videoLoop": {
+    "message": "Döngü",
+    "description": "Accessible label of the loop button on the video bar."
+  },
+  "videoPip": {
+    "message": "Resim içinde resim",
+    "description": "Accessible label of the picture in picture button."
+  },
+  "videoDownload": {
+    "message": "İndir",
+    "description": "Accessible label of the download button on videos and photos."
+  },
+  "videoBar": {
+    "message": "Video kontrolleri",
+    "description": "Accessible name of the whole video control bar."
+  },
+  "toastDashOnly": {
+    "message": "Bu video yalnızca HD akış olarak var; bu sürüm indiremiyor.",
+    "description": "Toast shown when a video is only available as an HD stream."
+  },
+  "toastError": {
+    "message": "İndirilemedi.",
+    "description": "Toast shown when a download fails."
+  },
+  "toastStarted": {
+    "message": "İndirme başladı.",
+    "description": "Toast shown when a download starts."
+  },
+  "dockTitle": {
+    "message": "InstHush · gizlilik kontrolleri",
+    "description": "Heading of the in-page privacy dock panel."
+  },
+  "dockFooter": {
+    "message": "InstHush · tamamen yerel",
+    "description": "Footer line of the in-page dock stating everything stays local."
+  },
+  "dockShowAll": {
+    "message": "Tümünü kapat",
+    "description": "Dock button that turns all ghost switches off."
+  },
+  "dockHideAll": {
+    "message": "Tümünü aç",
+    "description": "Dock button that turns both ghost switches on."
+  },
+  "dockSessionStories": {
+    "message": "Bu oturumda $1 hikâyede görüldü bilgisi gizlendi",
+    "description": "Dock counter of story views hidden this session; $1 is a number."
+  },
+  "dockGhostsOn": {
+    "message": "Hikâye ve DM ghost açık",
+    "description": "Toast shown when both story and DM ghost are enabled."
+  },
+  "dockGhostsOff": {
+    "message": "Hikâye ve DM ghost kapalı",
+    "description": "Toast shown when both story and DM ghost are disabled."
+  },
+  "dockHiddenViewing": {
+    "message": "Gizli izleme",
+    "description": "Pill shown while stories are being watched hidden."
+  },
+  "dockHiddenReading": {
+    "message": "Gizli okuma",
+    "description": "Pill shown while DMs are being read hidden."
+  },
+  "dockLoadError": {
+    "message": "Ayarlar okunamadı; sayfayı yenileyin.",
+    "description": "Error shown in the dock when settings cannot be read."
+  },
+  "dockAvatarDownload": {
+    "message": "Profil fotoğrafını indir"
+  },
+  "tipAvatarDownload": {
+    "message": "Açık olan profilin mevcut en yüksek çözünürlüklü profil fotoğrafını cihazına kaydeder."
+  },
+  "avatarDownloadBtn": {
+    "message": "Profil fotoğrafını tam boy indir"
+  },
+  "toastAvatarError": {
+    "message": "Profil fotoğrafı indirilemedi."
+  },
+  "videoPlay": {
+    "message": "Oynat",
+    "description": "Video bar button label to start playback."
+  },
+  "videoPause": {
+    "message": "Duraklat",
+    "description": "Video bar button label to pause playback."
+  },
+  "videoMute": {
+    "message": "Sessize al",
+    "description": "Video bar button label to mute the video."
+  },
+  "videoUnmute": {
+    "message": "Sesi aç",
+    "description": "Video bar button label to unmute the video."
+  },
+  "pillBack": {
+    "message": "−5 s",
+    "description": "Pill label for seeking back five seconds."
+  },
+  "pillForward": {
+    "message": "+5 s",
+    "description": "Pill label for seeking forward five seconds."
+  },
+  "pillLoopOn": {
+    "message": "Döngü açık",
+    "description": "Pill label shown when loop is enabled."
+  },
+  "pillLoopOff": {
+    "message": "Döngü kapalı",
+    "description": "Pill label shown when loop is disabled."
+  },
+  "pillPipOn": {
+    "message": "PiP açık",
+    "description": "Pill label shown when picture in picture is enabled."
+  },
+  "pillPipOff": {
+    "message": "PiP kapalı",
+    "description": "Pill label shown when picture in picture is disabled."
+  },
+  "pillMuted": {
+    "message": "Sessiz",
+    "description": "Pill label shown when the video is muted."
+  },
+  "pillSound": {
+    "message": "Ses açık",
+    "description": "Pill label shown when the video has sound."
+  },
+  "pillPlaying": {
+    "message": "Oynatılıyor",
+    "description": "Pill label shown while the video is playing."
+  },
+  "pillPaused": {
+    "message": "Duraklatıldı",
+    "description": "Pill label shown while the video is paused."
+  },
+  "popupCommentCopy": {
+    "message": "Yorum kopyalama",
+    "description": "Label of the comment copy setting."
+  },
+  "popupCommentCopyDesc": {
+    "message": "Yorumların altına tek tıkla Kopyala ekler.",
+    "description": "Description under the comment copy setting."
+  },
+  "followsBadge": {
+    "message": "Seni takip ediyor"
+  },
+  "popupFollowsBadge": {
+    "message": "Takip ediyor rozeti",
+    "description": "Label of the follows-you badge setting."
+  },
+  "popupFollowsBadgeDesc": {
+    "message": "Seni takip edenlerin profilinde küçük bir rozet gösterir.",
+    "description": "Description under the follows-you badge setting."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Heading of the theme setting."
+  },
+  "themeGreen": {
+    "message": "Yeşil",
+    "description": "Name of the green theme."
+  },
+  "themeBlack": {
+    "message": "Siyah",
+    "description": "Name of the black theme."
+  },
+  "themeWhite": {
+    "message": "Beyaz",
+    "description": "Name of the white theme."
+  },
+  "themePink": {
+    "message": "Pembe",
+    "description": "Name of the pink theme."
+  },
+  "themePurple": {
+    "message": "Mor",
+    "description": "Name of the purple theme."
+  },
+  "themeOcean": {
+    "message": "Okyanus",
+    "description": "Name of the ocean theme."
+  },
+  "infoMore": {
+    "message": "Bilgi",
+    "description": "Accessible name of an info button."
+  },
+  "tipGhostStory": {
+    "message": "Hikâyeleri izlediğinde karşı taraf 'gördü' bilgisini almaz. Yalnızca bu tarayıcıda çalışır.",
+    "description": "Explanation of story ghost mode."
+  },
+  "tipGhostDm": {
+    "message": "Mesajları okuduğunda 'görüldü' gönderilmez. Yazmaya başlarsan Instagram bunu yine gösterebilir.",
+    "description": "Explanation of DM ghost mode."
+  },
+  "tipVideo": {
+    "message": "Videolara hız, sarma, ses, döngü ve indirme çubuğu ekler. Canlı yayınları ve DRM korumalı akışları indirmez.",
+    "description": "Explanation of the video controls."
+  },
+  "tipAds": {
+    "message": "Akış, hikâye ve Reels içindeki sponsorlu paylaşımları gizler. Normal hesapların kendi tanıtım gönderilerini etkilemez.",
+    "description": "Explanation of the ad filter."
+  },
+  "tipCommentCopy": {
+    "message": "Her yorumun altına tek tıkla metni panoya alan 'Kopyala' düğmesi ekler. Yorum sahibine bildirim göndermez.",
+    "description": "Explanation of comment copy."
+  },
+  "tipTheme": {
+    "message": "Panel, açılır pencere ve video çubuğunun renk temasını değiştirir. Instagram'ın kendi arayüz renklerine dokunmaz.",
+    "description": "Explanation of the theme setting."
+  },
+  "videoDownloadHint": {
+    "message": "İndir (Shift: tümü)",
+    "description": "Hint on the video download button."
+  },
+  "videoVolumeHint": {
+    "message": "Ses (tekerlek, ↑/↓)",
+    "description": "Hint on the volume control."
+  },
+  "pillVolume": {
+    "message": "Ses %$1",
+    "description": "Pill label for the volume level."
+  },
+  "toastStartedAll": {
+    "message": "$1 dosya indiriliyor.",
+    "description": "Toast shown when a carousel download starts."
+  },
+  "toastSkipped": {
+    "message": "$1 atlandı.",
+    "description": "Toast shown when some carousel items are skipped."
+  },
+  "videoMore": {
+    "message": "Diğer araçlar",
+    "description": "Accessible label of the tools menu button."
+  },
+  "toolZoomIn": {
+    "message": "Yakınlaştır",
+    "description": "Tools menu label for zoom in."
+  },
+  "toolZoomOut": {
+    "message": "Uzaklaştır",
+    "description": "Tools menu label for zoom out."
+  },
+  "toolRotate": {
+    "message": "Döndür",
+    "description": "Tools menu label for rotate."
+  },
+  "toolFill": {
+    "message": "Doldur / sığdır",
+    "description": "Tools menu label for fill or fit."
+  },
+  "toolAb": {
+    "message": "A–B döngüsü",
+    "description": "Tools menu label for the A-B loop."
+  },
+  "toolFullscreen": {
+    "message": "Tam ekran",
+    "description": "Tools menu label for fullscreen."
+  },
+  "toolReset": {
+    "message": "Görünümü sıfırla",
+    "description": "Tools menu label for resetting the view."
+  },
+  "toolDownloadAll": {
+    "message": "Tümünü indir",
+    "description": "Tools menu label for downloading every carousel item."
+  },
+  "pillViewReset": {
+    "message": "Görünüm sıfırlandı",
+    "description": "Pill label shown when the view is reset."
+  },
+  "pillFill": {
+    "message": "Doldur",
+    "description": "Pill label shown when fill mode is on."
+  },
+  "pillFit": {
+    "message": "Sığdır",
+    "description": "Pill label shown when fit mode is on."
+  },
+  "pillAbOff": {
+    "message": "A–B kapalı",
+    "description": "Pill label shown when the A-B loop is cleared."
+  },
+  "pillFrameBack": {
+    "message": "−1 kare",
+    "description": "Pill label for the previous frame."
+  },
+  "pillFrameForward": {
+    "message": "+1 kare",
+    "description": "Pill label for the next frame."
+  },
+  "scVolume": {
+    "message": "Ses",
+    "description": "Shortcut row label for volume."
+  },
+  "scVolumeKeys": {
+    "message": "↑ / ↓",
+    "description": "Keys shown for volume."
+  },
+  "scZoom": {
+    "message": "Yakınlaştır / uzaklaştır",
+    "description": "Shortcut row label for zoom."
+  },
+  "scZoomKeys": {
+    "message": "Z / Shift+Z",
+    "description": "Keys shown for zoom."
+  },
+  "scReset": {
+    "message": "Görünümü sıfırla",
+    "description": "Shortcut row label for resetting the view."
+  },
+  "scResetKey": {
+    "message": "0",
+    "description": "Key shown for resetting the view."
+  },
+  "scRotate": {
+    "message": "Döndür",
+    "description": "Shortcut row label for rotate."
+  },
+  "scRotateKey": {
+    "message": "R",
+    "description": "Key shown for rotate."
+  },
+  "scFill": {
+    "message": "Doldur / sığdır",
+    "description": "Shortcut row label for fill or fit."
+  },
+  "scFillKey": {
+    "message": "C",
+    "description": "Key shown for fill or fit."
+  },
+  "scAb": {
+    "message": "A–B döngüsü",
+    "description": "Shortcut row label for the A-B loop."
+  },
+  "scAbKey": {
+    "message": "A",
+    "description": "Key shown for the A-B loop."
+  },
+  "scFullscreen": {
+    "message": "Tam ekran",
+    "description": "Shortcut row label for fullscreen."
+  },
+  "scFullscreenKey": {
+    "message": "F",
+    "description": "Key shown for fullscreen."
+  },
+  "scHold": {
+    "message": "Basılı tut: 2×",
+    "description": "Shortcut row label for holding 2x speed."
+  },
+  "scHoldKey": {
+    "message": "S",
+    "description": "Key shown for holding 2x speed."
+  },
+  "scFrame": {
+    "message": "Kare kare",
+    "description": "Shortcut row label for frame step."
+  },
+  "scFrameKeys": {
+    "message": ", / .",
+    "description": "Keys shown for frame step."
+  },
+  "scDownloadAll": {
+    "message": "Tümünü indir",
+    "description": "Shortcut row label for downloading every carousel item."
+  },
+  "scDownloadAllKey": {
+    "message": "Shift+D",
+    "description": "Key shown for downloading every carousel item."
+  },
+  "commentCopy": {
+    "message": "Kopyala",
+    "description": "Label of the comment copy button."
+  },
+  "commentCopied": {
+    "message": "Kopyalandı",
+    "description": "Label shown after a comment is copied."
+  },
+  "popupAutoAdvance": {
+    "message": "Reels otomatik geçiş"
+  },
+  "popupAutoAdvanceDesc": {
+    "message": "Reel bitince sıradakine geçer."
+  },
+  "tipAutoAdvance": {
+    "message": "Yalnızca Reels sayfasında çalışır. Tuş veya düğme basılıyken, menü açıkken, A–B döngüsünde ve gizli sekmede bekler."
+  },
+  "popupFocus": {
+    "message": "Odak modu"
+  },
+  "popupFocusDesc": {
+    "message": "Gizlenecek öğeleri seçin."
+  },
+  "tipFocus": {
+    "message": "Sayıları, önerileri ve gezinme bağlantılarını bağımsız olarak gizleyin."
+  },
+  "videoCapture": {
+    "message": "Kareyi PNG olarak kaydet"
+  },
+  "scCaptureKey": {
+    "message": "Shift + X"
+  },
+  "toastCaptureBlocked": {
+    "message": "Bu videonun karesi tarayıcının kaynak güvenliği nedeniyle kaydedilemiyor."
+  },
+  "toastCaptureError": {
+    "message": "Video karesi kaydedilemedi."
+  },
+  "popupKeys": {
+    "message": "Klavye kısayolları (J/K, ?)"
+  },
+  "popupKeysDesc": {
+    "message": "Gönderiler arasında gezin ve kısayolları görün."
+  },
+  "tipKeys": {
+    "message": "J/K gönderi gezinmesini ve ? yardımını açar. Video ve dock kısayollarının kendi ayarları geçerlidir."
+  },
+  "keysTitle": {
+    "message": "InstHush klavye kısayolları"
+  },
+  "keysPosts": {
+    "message": "Sonraki / önceki gönderi"
+  },
+  "keysHelp": {
+    "message": "Kısayol yardımını aç / kapat"
+  },
+  "keysDownloadPost": {
+    "message": "Geçerli gönderiyi / görünen slaytı indir"
+  },
+  "keysDownloadPostAll": {
+    "message": "Geçerli gönderinin tüm slaytlarını indir"
+  },
+  "keysDock": {
+    "message": "Paneli aç / kapat"
+  },
+  "keysGhosts": {
+    "message": "İki gizli modu aç / kapat"
+  },
+  "keysMute": {
+    "message": "Sesi kapat / aç"
+  },
+  "keysClose": {
+    "message": "Kapat"
+  },
+  "keysContext": {
+    "message": "Video kısayolları etkin videoda çalışır; ses okları video veya çubuk üzerindeyken, Reels dışında çalışır. Araçların kullanılabilirliği tarayıcıya bağlıdır."
+  },
+  "popupStoryPause": {
+    "message": "Hikâyeleri açılınca durdur"
+  },
+  "popupStoryPauseDesc": {
+    "message": "Hikâye kendiliğinden akmaz, sen başlatırsın."
+  },
+  "tipStoryPause": {
+    "message": "Instagram'ın kendi duraklat düğmesine her hikâye öğesi için bir kez basar. Önce sen oynatırsan o öğeye dokunmaz. Varsayılan kapalı."
+  },
+  "popupNoAutoplay": {
+    "message": "Otomatik oynatmayı durdur"
+  },
+  "popupNoAutoplayDesc": {
+    "message": "Akış ve profil videoları sen oynatana kadar bekler."
+  },
+  "tipNoAutoplay": {
+    "message": "Instagram'ın kendiliğinden başlattığı videoyu bir kez durdurur ve oynatabilmen için çubuğu gösterir. Senin başlattığın video bir daha durdurulmaz. Reels, hikâyeler ve mesajlar etkilenmez. Varsayılan kapalı."
+  },
+  "popupHoverZoom": {
+    "message": "Üzerine gelince önizle"
+  },
+  "popupHoverZoomDesc": {
+    "message": "Izgaradaki küçük resmin üzerinde bekle, büyük halini gör."
+  },
+  "tipHoverZoom": {
+    "message": "Profil, keşfet, kaydedilenler, etiketlenenler ve arama ızgaralarında bir küçük resmin üzerinde kısa süre durunca imlecin yanında büyük bir kopyası görünür. Instagram'ın zaten yüklediği görseli kullanır, kendi isteğini eklemez; imleci çekince, kaydırınca veya Esc'ye basınca kapanır. Galeri ve videolarda kapak görseli küçük bir etiketle gösterilir. Akışta, reels'te, hikâyelerde ve mesajlarda çalışmaz. Varsayılan kapalı."
+  },
+  "hoverZoomBadgeVideo": {
+    "message": "Video"
+  },
+  "hoverZoomBadgeCarousel": {
+    "message": "Galeri"
+  },
+  "timerBreakToast": {
+    "message": "$COUNT$ dakikadır Instagram'dasın. Kısa bir mola vermeyi dene.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "timerBreakDismiss": {
+    "message": "Kapat"
+  },
+  "popupTimer": {
+    "message": "Instagram'da geçen süre"
+  },
+  "timerRowValue": {
+    "message": "Bugün $1 · 7 gün $2"
+  },
+  "timerUnitHour": {
+    "message": "sa"
+  },
+  "timerUnitMin": {
+    "message": "dk"
+  },
+  "popupBreakReminder": {
+    "message": "Mola hatırlatıcı"
+  },
+  "popupBreakOff": {
+    "message": "Kapalı"
+  },
+  "popupBreakMins": {
+    "message": "$1 dk"
+  },
+  "tipTimer": {
+    "message": "Instagram'da aktif geçirdiğin süreyi yalnızca bu cihazda sayar. Sekme görünür, pencere odakta ve son 60 saniyede etkileşim varsa sayılır. Veri cihazdan çıkmaz."
+  },
+  "tipBreak": {
+    "message": "Seçtiğin süre kesintisiz kullanımdan sonra küçük bir uyarı gösterir. 5 dakika ara verirsen sayaç sıfırlanır."
+  },
+  "popupFocusCounts": {
+    "message": "Beğeni/görüntülenme sayılarını gizle"
+  },
+  "popupFocusCountsDesc": {
+    "message": "Tanımlanabilen beğeni ve görüntülenme sayılarını gizler."
+  },
+  "tipFocusCounts": {
+    "message": "Tanımlanabilen beğeni ve görüntülenme sayılarını gizler."
+  },
+  "popupFocusSuggested": {
+    "message": "Önerileri gizle"
+  },
+  "popupFocusSuggestedDesc": {
+    "message": "Öneri bölümlerini ve tanımlanabilen, takip edilmeyen akış gönderilerini gizler."
+  },
+  "tipFocusSuggested": {
+    "message": "Öneri bölümlerini ve tanımlanabilen, takip edilmeyen akış gönderilerini gizler."
+  },
+  "popupFocusReelsNav": {
+    "message": "Reels gezinmesini gizle"
+  },
+  "popupFocusReelsNavDesc": {
+    "message": "Gezinme alanındaki Reels bağlantılarını gizler."
+  },
+  "tipFocusReelsNav": {
+    "message": "Gezinme alanındaki Reels bağlantılarını gizler."
+  },
+  "popupFocusExploreNav": {
+    "message": "Keşfet gezinmesini gizle"
+  },
+  "popupFocusExploreNavDesc": {
+    "message": "Gezinme alanındaki Keşfet bağlantılarını gizler."
+  },
+  "tipFocusExploreNav": {
+    "message": "Gezinme alanındaki Keşfet bağlantılarını gizler."
+  },
+  "popupFocusThreads": {
+    "message": "Threads bağlantılarını gizle"
+  },
+  "popupFocusMetaAi": {
+    "message": "Meta AI'yi gizle"
+  },
+  "popupFocusMetaAiDesc": {
+    "message": "Arama ve DM'deki Meta AI girişlerini gizler."
+  },
+  "tipFocusMetaAi": {
+    "message": "Arama ve DM'deki Meta AI girişlerini gizler."
+  },
+  "popupFocusThreadsDesc": {
+    "message": "Threads bağlantılarını ve bağlantılı tanıtımları gizler."
+  },
+  "tipFocusThreads": {
+    "message": "Threads bağlantılarını ve bağlantılı tanıtımları gizler."
+  },
+  "popupDefaultSpeed": {
+    "message": "Varsayılan hız"
+  },
+  "popupDefaultSpeedDesc": {
+    "message": "Yeni videolar bu hızla başlar."
+  },
+  "tipDefaultSpeed": {
+    "message": "Akış, reels, profil ve gönderi videoları bu hızla başlar. Shift+. / Shift+, ya da menüyle seçtiğin hız o video için geçerli olur. Hikâyeler, mesajlar ve aramalar son seçtiğin hızı kullanır. 1x eski davranışı korur: son seçtiğin hız her yerde geçerlidir."
+  },
+  "dockMore": {
+    "message": "Diğer"
+  },
+  "dmReadButton": {
+    "message": "Okundu yap"
+  },
+  "dmReadWaiting": {
+    "message": "Etkinlik bekleniyor"
+  },
+  "dmReadTip": {
+    "message": "Bu sohbet için bir sonraki okundu bilgisini geçir"
+  },
+  "dmReadToast": {
+    "message": "Bir sonraki etkinlikte okundu olarak işaretlenecek"
+  },
+  "dmReadDone": {
+    "message": "Okundu olarak işaretlendi"
+  },
+  "dmReadExpired": {
+    "message": "İşaretlenmedi. Tekrar bas, sonra sohbette tıkla veya kaydır."
+  },
+  "dmReadFail": {
+    "message": "Henüz hazır değil. Biraz sonra tekrar dene."
+  },
+  "muteTitle": {
+    "message": "Sessize alınanlar"
+  },
+  "muteWords": {
+    "message": "Kelimeler"
+  },
+  "muteAccounts": {
+    "message": "Hesaplar"
+  },
+  "muteAdd": {
+    "message": "Ekle"
+  },
+  "muteRemove": {
+    "message": "Kaldır"
+  },
+  "muteInvalid": {
+    "message": "Yeni bir kelime (1-50 karakter) veya geçerli bir Instagram kullanıcı adı girin. Her liste en fazla 100 kayıt içerebilir."
+  },
+  "muteWordsPlaceholder": {
+    "message": "kelime veya #etiket"
+  },
+  "muteAccountsPlaceholder": {
+    "message": "kullanıcı adı"
+  },
+  "popupExactDates": {
+    "message": "Tam tarihleri göster"
+  },
+  "popupExactDatesDesc": {
+    "message": "Gönderi ve yorumlarda kesin tarih ve saati göster."
+  },
+  "tipExactDates": {
+    "message": "Gönderi ve yorumlarda kesin tarih ve saati göster."
+  },
+  "popupFollowingFeed": {
+    "message": "Akışı 'Takip edilenler' ile aç"
+  },
+  "popupFollowingFeedDesc": {
+    "message": "Ana sayfa kronolojik takip ettiklerin akışıyla açılır."
+  },
+  "tipFollowingFeed": {
+    "message": "Ana sayfayı ve Ana Sayfa bağlantılarını Takip edilenler akışıyla açar. Açıkça bir akış seçersen bu sayfa oturumunda seçimin korunur. Varsayılan kapalı."
+  },
+  "popupCleanLinks": {
+    "message": "Temiz paylaşım linkleri"
+  },
+  "popupCleanLinksDesc": {
+    "message": "Kopyalanan linklerden ve adres çubuğundan izleme parametrelerini (igsh, utm) siler."
+  },
+  "tipCleanLinks": {
+    "message": "instagram.com ve instagr.am bağlantılarındaki igsh, igshid, ig_rid, utm_*, fbclid ve ref=share izleme parametrelerini kopyalanan bağlantılardan ve adres çubuğundan temizler. Ek ağ isteği yapmaz. Varsayılan açık."
+  },
+  "opBadge": {
+    "message": "Yazar"
+  },
+  "popupOpBadge": {
+    "message": "Gönderi sahibi rozeti"
+  },
+  "popupOpBadgeDesc": {
+    "message": "Yorumlarda gönderi sahibinin yanıtlarına küçük bir Yazar etiketi ekler."
+  },
+  "tipOpBadge": {
+    "message": "Yorumlarda gönderi sahibinin yanıtlarına küçük bir Yazar etiketi ekler."
+  },
+  "tipFollowsBadge": {
+    "message": "Profilde kullanıcı adının yanında takip durumunu gösterir: karşılıklı, seni takip ediyor, seni takip etmiyor veya takip etmiyorsun. Bilinmiyorsa rozete tıklayınca Instagram'a tek bir istek gönderilir."
+  },
+  "dockKeys": {
+    "message": "Klavye kısayolları"
+  },
+  "dockNoAutoplay": {
+    "message": "Otomatik oynatma yok"
+  },
+  "dockGroupPlayback": {
+    "message": "Oynatma"
+  },
+  "dockGroupFeed": {
+    "message": "Akış ve araçlar"
+  },
+  "dockGroupTime": {
+    "message": "Süre ve mola"
+  },
+  "popupFocusNoReels": {
+    "message": "Akıştaki Reels'leri gizle"
+  },
+  "popupFocusNoReelsDesc": {
+    "message": "Ana sayfa akışındaki Reels gönderilerini gizler."
+  },
+  "tipFocusNoReels": {
+    "message": "Ana sayfa akışındaki Reels gönderilerini gizler."
+  },
+  "dockStoryPause": {
+    "message": "Hikâyeleri duraklat"
+  },
+  "popupGhostTyping": {
+    "message": "Yazıyor… gizle"
+  },
+  "popupGhostTypingDesc": {
+    "message": "DM'de 'yazıyor' gösterilmez"
+  },
+  "tipGhostTyping": {
+    "message": "DM'de yazarken karşı taraf 'yazıyor' göstergesini görmez."
+  },
+  "popupSeenPosts": {
+    "message": "Görülen gönderileri soluklaştır"
+  },
+  "popupSeenPostsDesc": {
+    "message": "Akışta daha önce gördüğün gönderileri soluk gösterir; üstüne gelince netleşir. Liste yalnızca bu cihazda tutulur."
+  },
+  "tipSeenPosts": {
+    "message": "Ana sayfa akışında önceki ziyaretlerde en az 1,5 saniye baktığın gönderileri soluk gösterir; üstüne gelince netleşir. Liste yalnızca bu cihazda tutulur, en fazla 3000 gönderi saklanır. Temizle listeyi siler."
+  },
+  "seenPostsClear": {
+    "message": "Temizle"
+  },
+  "seenPostsClearLabel": {
+    "message": "Görülen gönderi listesini temizle"
+  },
+  "seenPostsCleared": {
+    "message": "Görülen gönderi listesi temizlendi."
+  },
+  "favoritesTitle": {
+    "message": "Favoriler"
+  },
+  "favoritesAdd": {
+    "message": "Favorilere ekle"
+  },
+  "favoritesRemove": {
+    "message": "Favorilerden çıkar"
+  },
+  "favoritesEmpty": {
+    "message": "Henüz favori yok. Bir profilde yıldıza bas."
+  },
+  "favoritesDescription": {
+    "message": "Sık baktığın hesaplar; liste yalnızca bu cihazda tutulur."
+  },
+  "tipFavorites": {
+    "message": "Sık baktığın en fazla 50 hesabı bu cihazda bir listede tutar. Bir profildeyken paneldeki yıldızla ekle ya da çıkar. Instagram'ın kendi Favoriler akışını değiştirmez."
+  },
+  "setCatPrivacy": {
+    "message": "Gizlilik"
+  },
+  "setCatFeed": {
+    "message": "Akış"
+  },
+  "setCatVideo": {
+    "message": "Video"
+  },
+  "setCatDownloads": {
+    "message": "İndirme"
+  },
+  "setCatProfile": {
+    "message": "Profil ve hikâye"
+  },
+  "setCatFocus": {
+    "message": "Odak"
+  },
+  "setCatAppearance": {
+    "message": "Görünüm"
+  },
+  "setCatTools": {
+    "message": "Araçlar"
+  },
+  "setGroupGhost": {
+    "message": "Gizli mod"
+  },
+  "setGroupLinks": {
+    "message": "Bağlantılar"
+  },
+  "setGroupCleanup": {
+    "message": "Akış temizliği"
+  },
+  "setGroupNavigation": {
+    "message": "Gezinme"
+  },
+  "setGroupFeed": {
+    "message": "Akış tercihleri"
+  },
+  "setGroupPlayer": {
+    "message": "Oynatıcı"
+  },
+  "setGroupReels": {
+    "message": "Reels"
+  },
+  "setGroupStories": {
+    "message": "Hikâyeler"
+  },
+  "setGroupToolbar": {
+    "message": "Medya işlemleri"
+  },
+  "setGroupFiles": {
+    "message": "Dosyalar"
+  },
+  "setGroupExtras": {
+    "message": "Ek indirmeler"
+  },
+  "setGroupBulk": {
+    "message": "Toplu indirme"
+  },
+  "setGroupProfile": {
+    "message": "Profil"
+  },
+  "setGroupFocus": {
+    "message": "Odak modu"
+  },
+  "setGroupLimit": {
+    "message": "Günlük sınır"
+  },
+  "setGroupTime": {
+    "message": "Süre ve mola"
+  },
+  "setGroupLook": {
+    "message": "Renk ve hareket"
+  },
+  "setGroupInfo": {
+    "message": "Gönderiler ve yorumlar"
+  },
+  "setGroupKeys": {
+    "message": "Klavye"
+  },
+  "setGroupData": {
+    "message": "Veri ve eşitleme"
+  },
+  "setGroupRisky": {
+    "message": "Riskli özellikler"
+  },
+  "setGhostMode": {
+    "message": "Gizli mod"
+  },
+  "setGhostModeDesc": {
+    "message": "Hikâye görüldü bilgisini, DM okundu bilgisini ve yazıyor göstergesini birlikte aç veya kapat."
+  },
+  "setGhostAllOn": {
+    "message": "Tümünü aç"
+  },
+  "setGhostAllOff": {
+    "message": "Tümünü kapat"
+  },
+  "setGhostStory": {
+    "message": "Hikâye ghost"
+  },
+  "setGhostStoryDesc": {
+    "message": "Hikâye izlediğinde görüldü bilgisini gizle."
+  },
+  "setGhostDm": {
+    "message": "DM ghost"
+  },
+  "setGhostDmDesc": {
+    "message": "Sohbette mesaj okuduğunda okundu bilgisini gizle."
+  },
+  "setGhostTyping": {
+    "message": "Yazıyor… gizle"
+  },
+  "setGhostTypingDesc": {
+    "message": "DM’de yazarken yazıyor göstergesini gizle."
+  },
+  "setMarkRead": {
+    "message": "Okundu yap"
+  },
+  "setMarkReadDesc": {
+    "message": "Bu sohbetin bir sonraki okundu bilgisini gönder."
+  },
+  "setCleanLinks": {
+    "message": "Temiz paylaşım linkleri"
+  },
+  "setCleanLinksDesc": {
+    "message": "Kopyalanan linklerden ve adres çubuğundan izleme parametrelerini sil."
+  },
+  "setShareDomain": {
+    "message": "Paylaşım alan adı"
+  },
+  "setShareDomainDesc": {
+    "message": "Kopyaladığın Instagram paylaşım linklerinde seçtiğin alan adını kullan."
+  },
+  "tipShareDomain": {
+    "message": "Kopyaladığın Instagram gönderi, Reels ve hikâye bağlantılarındaki instagram.com alan adını yazdığın alan adıyla değiştirir (ör. kkinstagram.com). Adres çubuğuna dokunmaz. Boş bırakıldığında kapalıdır."
+  },
+  "setDirectLinks": {
+    "message": "Doğrudan linkler"
+  },
+  "setDirectLinksDesc": {
+    "message": "Dış bağlantıları l.instagram.com yönlendirmesi olmadan aç. Instagram’ın zararlı bağlantı uyarısını da atlar."
+  },
+  "tipDirectLinks": {
+    "message": "l.instagram.com yönlendirme bağlantılarını doğrudan hedef adrese çevirir. Dikkat: Instagram’ın zararlı veya şüpheli bağlantı uyarısını da atlar. Varsayılan kapalı."
+  },
+  "setBlockAnalytics": {
+    "message": "Analitik isteklerini engelle"
+  },
+  "setBlockAnalyticsDesc": {
+    "message": "Instagram’ın tanımlanan kullanım ölçümü isteklerini engelle."
+  },
+  "tipBlockAnalytics": {
+    "message": "Instagram’ın bilinen kullanım ölçümü ve günlükleme isteklerini (/ajax/bz, /ajax/qm/, /logging/, logging_client_events) tarayıcı içinde engeller. Ek izin gerektirmez. Varsayılan kapalı."
+  },
+  "setAds": {
+    "message": "Reklam engelleme"
+  },
+  "setAdsDesc": {
+    "message": "Akış, hikâye ve Reels reklamlarını gizle."
+  },
+  "setSuggested": {
+    "message": "Önerilen gönderileri gizle"
+  },
+  "setSuggestedDesc": {
+    "message": "Ana akıştaki önerilen gönderileri ve öneri bölümlerini kaldır."
+  },
+  "setSuggestedAccounts": {
+    "message": "Önerilen hesapları gizle"
+  },
+  "setSuggestedAccountsDesc": {
+    "message": "Yan sütundaki hesap önerilerini kaldır."
+  },
+  "setNoReels": {
+    "message": "Akıştaki Reels’leri gizle"
+  },
+  "setNoReelsDesc": {
+    "message": "Ana akıştan Reels gönderilerini kaldır."
+  },
+  "setStoryTray": {
+    "message": "Hikâye tepsisini gizle"
+  },
+  "setStoryTrayDesc": {
+    "message": "Ana sayfanın üstündeki hikâye sırasını gizle."
+  },
+  "setReelsNav": {
+    "message": "Reels sekmesini gizle"
+  },
+  "setReelsNavDesc": {
+    "message": "Gezinme menüsündeki Reels bağlantısını gizle."
+  },
+  "setExploreNav": {
+    "message": "Keşfet sekmesini gizle"
+  },
+  "setExploreNavDesc": {
+    "message": "Gezinme menüsündeki Keşfet bağlantısını gizle."
+  },
+  "setThreads": {
+    "message": "Threads bağlantılarını gizle"
+  },
+  "setThreadsDesc": {
+    "message": "Instagram menülerindeki Threads bağlantılarını gizle."
+  },
+  "setMetaAi": {
+    "message": "Meta AI’yi gizle"
+  },
+  "setMetaAiDesc": {
+    "message": "Arama ve DM’deki Meta AI girişlerini gizle."
+  },
+  "setFollowingFeed": {
+    "message": "Takip edilenler akışı"
+  },
+  "setFollowingFeedDesc": {
+    "message": "Ana sayfayı takip ettiğin hesapların akışında aç."
+  },
+  "setNoDoubleTap": {
+    "message": "Çift tıklayarak beğenmeyi kapat"
+  },
+  "setNoDoubleTapDesc": {
+    "message": "Medyaya çift tıkladığında beğeni gönderilmesini önle."
+  },
+  "setSeenPosts": {
+    "message": "Görülen gönderileri soluklaştır"
+  },
+  "setSeenPostsDesc": {
+    "message": "Önceden gördüğün gönderileri soluk göster, üzerine gelince netleştir."
+  },
+  "setMute": {
+    "message": "Sessize alınanlar"
+  },
+  "setMuteDesc": {
+    "message": "Belirttiğin sözcükleri veya hesapları içeren gönderileri gizle."
+  },
+  "setVideo": {
+    "message": "Video kontrolleri"
+  },
+  "setVideoDesc": {
+    "message": "Oynat, sar, hızı ve sesi ayarla, döngüye al veya ayrı pencerede izle."
+  },
+  "setDefaultSpeed": {
+    "message": "Varsayılan hız"
+  },
+  "setDefaultSpeedDesc": {
+    "message": "Yeni akış ve profil videolarının başlangıç hızını seç."
+  },
+  "setAutoAdvance": {
+    "message": "Reels otomatik geçiş"
+  },
+  "setAutoAdvanceDesc": {
+    "message": "Video bitince bir sonraki Reels videosuna geç."
+  },
+  "setNoAutoplay": {
+    "message": "Otomatik oynatmayı durdur"
+  },
+  "setNoAutoplayDesc": {
+    "message": "Akış ve profil videolarını sen başlatana kadar beklet."
+  },
+  "setStoryPause": {
+    "message": "Hikâyeleri açılınca durdur"
+  },
+  "setStoryPauseDesc": {
+    "message": "Her hikâyeyi açılışta duraklat."
+  },
+  "setStoryNoAdvance": {
+    "message": "Hikâye sonunda bekle"
+  },
+  "setStoryNoAdvanceDesc": {
+    "message": "Sonraki hikâyeye geçmek için seni bekle."
+  },
+  "setSpeed": {
+    "message": "Son oynatma hızı"
+  },
+  "setSpeedDesc": {
+    "message": "Video çubuğunda veya Shift+. / Shift+, ile en son seçtiğin hız."
+  },
+  "setRememberSound": {
+    "message": "Ses tercihini hatırla"
+  },
+  "setRememberSoundDesc": {
+    "message": "Videolarda son ses düzeyini ve sessiz durumunu hatırla."
+  },
+  "setVolume": {
+    "message": "Hatırlanan ses düzeyi"
+  },
+  "setVolumeDesc": {
+    "message": "Video çubuğunda en son seçtiğin ses düzeyi."
+  },
+  "setMuted": {
+    "message": "Hatırlanan sessiz durumu"
+  },
+  "setMutedDesc": {
+    "message": "Videoların sessiz mi sesli mi başlayacağı."
+  },
+  "setOneClickDownload": { "message": "Tek tıkla indir" },
+  "setOneClickDownloadDesc": { "message": "Oynatıcıdaki indirme düğmesine bastığında geçerli öğeyi indir." },
+  "playerDownloadItem": { "message": "Bu öğeyi indir" },
+  "playerDownloadAll": { "message": "Hepsini indir" },
+  "playerCopyLink": { "message": "Bağlantıyı kopyala" },
+  "setMediaToolbar": {
+    "message": "Medya araç çubuğu"
+  },
+  "setMediaToolbarDesc": {
+    "message": "Medyanın üzerine geldiğinde veya odaklandığında işlemleri göster."
+  },
+  "setDownloadItem": {
+    "message": "Medyayı indir"
+  },
+  "setDownloadItemDesc": {
+    "message": "Seçili fotoğrafı veya videoyu kaydet."
+  },
+  "setDownloadAll": {
+    "message": "Tümünü indir"
+  },
+  "setDownloadAllDesc": {
+    "message": "Albümü, hikâye dizisini veya öne çıkanları kaydet."
+  },
+  "setViewFullSize": {
+    "message": "Tam boyutta aç"
+  },
+  "setViewFullSizeDesc": {
+    "message": "Asıl boyutu gör, tekerlekle yakınlaştır ve sürükleyerek gezin."
+  },
+  "setCopyMediaUrl": {
+    "message": "Medya adresini kopyala"
+  },
+  "setCopyMediaUrlDesc": {
+    "message": "Seçili dosyanın adresini panoya al."
+  },
+  "setCopyCaption": {
+    "message": "Açıklamayı kopyala"
+  },
+  "setCopyCaptionDesc": {
+    "message": "Gönderinin açıklamasını panoya al."
+  },
+  "setFilenameTemplate": {
+    "message": "Dosya adı şablonu"
+  },
+  "setFilenameTemplateDesc": {
+    "message": "Dosya ve klasör adlarını örnek sonuçla düzenle."
+  },
+  "setDownloadFormat": {
+    "message": "İndirme biçimi"
+  },
+  "setDownloadFormatDesc": {
+    "message": "Çoklu indirmeleri ZIP arşivi veya ayrı dosyalar olarak kaydet."
+  },
+  "setContextMenu": {
+    "message": "Sağ tıkla indir"
+  },
+  "setContextMenuDesc": {
+    "message": "Instagram’da tarayıcı menüsünden medya indir."
+  },
+  "setVoiceDownload": {
+    "message": "Sesli mesajı indir"
+  },
+  "setVoiceDownloadDesc": {
+    "message": "DM’de seçtiğin sesli mesajı kaydet."
+  },
+  "setCommentGif": {
+    "message": "Yorum GIF’ini kaydet"
+  },
+  "setCommentGifDesc": {
+    "message": "Yorumdaki GIF’in yanına kaydetme düğmesi ekle."
+  },
+  "setAudioMp3": {
+    "message": "Sesi MP3 olarak kaydet"
+  },
+  "setAudioMp3Desc": {
+    "message": "Seçili videonun sesini MP3 dosyasına dönüştür."
+  },
+  "setBulkProfile": {
+    "message": "Profil gönderilerini toplu indir"
+  },
+  "setBulkProfileDesc": {
+    "message": "Son N gönderiyi aralarla indir veya listesini CSV olarak kaydet."
+  },
+  "setBulkSaved": {
+    "message": "Kaydedilenleri toplu indir"
+  },
+  "setBulkSavedDesc": {
+    "message": "Kaydedilenlerden veya bir koleksiyondan medya ya da CSV al."
+  },
+  "setHdAvatar": {
+    "message": "HD profil fotoğrafı"
+  },
+  "setHdAvatarDesc": {
+    "message": "Profilde, paneldeki satırla veya fotoğrafın üzerindeki düğmeyle en büyük profil fotoğrafını indir."
+  },
+  "setFollowsBadge": {
+    "message": "Takip durumu rozeti"
+  },
+  "setFollowsBadgeDesc": {
+    "message": "Profilde karşılıklı takip durumunu göster."
+  },
+  "setStoryDetails": {
+    "message": "Hikâye ayrıntıları"
+  },
+  "setStoryDetailsDesc": {
+    "message": "Etiketleri, bahsetmeleri, çıkartmaları, müziği ve bağlantıları göster."
+  },
+  "setFavorites": {
+    "message": "Favoriler"
+  },
+  "setFavoritesDesc": {
+    "message": "Sık baktığın profilleri bu cihazdaki listende tut."
+  },
+  "setHoverZoom": {
+    "message": "Üzerine gelince önizle"
+  },
+  "setHoverZoomDesc": {
+    "message": "Izgaradaki küçük resmin üzerine gelince büyük önizlemeyi göster."
+  },
+  "setFocusMode": {
+    "message": "Odak modu"
+  },
+  "setFocusModeDesc": {
+    "message": "Gizlenecek öğeleri tek tek seç."
+  },
+  "setCounts": {
+    "message": "Etkileşim sayılarını gizle"
+  },
+  "setCountsDesc": {
+    "message": "Beğeni ve diğer desteklenen etkileşim sayılarını gizle."
+  },
+  "setDailyLimit": {
+    "message": "Günlük süre sınırı"
+  },
+  "setDailyLimitDesc": {
+    "message": "Reels ve Keşfet için ortak bir günlük süre belirle."
+  },
+  "setTimeRemaining": {
+    "message": "Kalan süre"
+  },
+  "setTimeRemainingDesc": {
+    "message": "Günlük sınırdan kalan süreyi göster."
+  },
+  "setGrayscale": {
+    "message": "Gri tonlar"
+  },
+  "setGrayscaleDesc": {
+    "message": "Reels ve Keşfet’i her zaman veya süre dolduğunda gri göster."
+  },
+  "setReelCounter": {
+    "message": "Reels sayacı"
+  },
+  "setReelCounterDesc": {
+    "message": "Bugün izlediğin farklı Reels videolarını say."
+  },
+  "setUsage": {
+    "message": "Instagram’da geçen süre"
+  },
+  "setUsageDesc": {
+    "message": "Bu cihazdaki etkin kullanımını bugün ve son yedi gün için gör."
+  },
+  "setBreakMins": {
+    "message": "Mola hatırlatıcı"
+  },
+  "setBreakMinsDesc": {
+    "message": "Kesintisiz kullanımdan sonra mola uyarısı göster."
+  },
+  "setTheme": {
+    "message": "Tema"
+  },
+  "setThemeDesc": {
+    "message": "InstHush panelleri ve medya çubuğu için altı renkten birini seç."
+  },
+  "setAnimations": {
+    "message": "Animasyonlar"
+  },
+  "setAnimationsDesc": {
+    "message": "Sistem izin verdiğinde geçişleri ve gizli mod parıltısını göster."
+  },
+  "setExactDates": {
+    "message": "Tam tarihleri göster"
+  },
+  "setExactDatesDesc": {
+    "message": "Gönderi ve yorumlarda tarih ve saati göster."
+  },
+  "setOpBadge": {
+    "message": "Gönderi sahibi rozeti"
+  },
+  "setOpBadgeDesc": {
+    "message": "Yorumlarda gönderi sahibinin yanıtlarını işaretle."
+  },
+  "setCommentCopy": {
+    "message": "Yorum kopyalama"
+  },
+  "setCommentCopyDesc": {
+    "message": "Yorumların altına kopyalama düğmesi ekle."
+  },
+  "setKeys": {
+    "message": "Klavye kısayolları"
+  },
+  "setKeysDesc": {
+    "message": "J/K ile gönderiler arasında gezin, ? ile kısayol yardımını aç."
+  },
+  "setShortcuts": {
+    "message": "Kısayol listesi"
+  },
+  "setShortcutsDesc": {
+    "message": "Her kısayolun ne yaptığını ve nerede çalıştığını gör."
+  },
+  "setBackup": {
+    "message": "Ayar yedeği"
+  },
+  "setBackupDesc": {
+    "message": "Ayarlarını bir JSON dosyasına aktar veya yedekten yükle."
+  },
+  "setReset": {
+    "message": "Ayarları sıfırla"
+  },
+  "setResetDesc": {
+    "message": "Tercihleri ilk kurulum değerlerine döndür."
+  },
+  "setHealthCheck": {
+    "message": "Sağlık kontrolü"
+  },
+  "setHealthCheckDesc": {
+    "message": "Desteklenen sayfaları denetle ve kimlik bilgisi içermeyen raporu kopyala."
+  },
+  "setSync": {
+    "message": "Tarayıcı hesabımla eşitle"
+  },
+  "setSyncDesc": {
+    "message": "Uygun tercihleri tarayıcı hesabınla eşitle."
+  },
+  "setUnfollowers": {
+    "message": "Takibi bırakanları kontrol et"
+  },
+  "setUnfollowersDesc": {
+    "message": "Taramaları karşılaştır, geçmişi ve koruma listesini bu cihazda yönet."
+  },
+  "setUnfollowQueue": {
+    "message": "Takipten çıkma kuyruğu"
+  },
+  "setUnfollowQueueDesc": {
+    "message": "Seçtiğin hesapları incele ve takipten çıkma işlemlerini sıraya al."
+  },
+  "setKeepUnsent": {
+    "message": "Geri alınan mesajları sakla"
+  },
+  "setKeepUnsentDesc": {
+    "message": "Geri alınan mesajları 30 güne kadar yalnızca bu cihazda saklar. Sohbetten temizleyebilirsin."
+  },
+  "setKeyFeedNext": {
+    "message": "Sonraki gönderi"
+  },
+  "setKeyFeedPrev": {
+    "message": "Önceki gönderi"
+  },
+  "setKeySpeedUp": {
+    "message": "Hızlandır"
+  },
+  "setKeySpeedDown": {
+    "message": "Yavaşlat"
+  },
+  "setKeyPlay": {
+    "message": "Oynat / duraklat"
+  },
+  "setKeyVolumeUp": {
+    "message": "Sesi yükselt"
+  },
+  "setKeyVolumeDown": {
+    "message": "Sesi azalt"
+  },
+  "setKeyFrameBack": {
+    "message": "Önceki kare"
+  },
+  "setKeyFrameForward": {
+    "message": "Sonraki kare"
+  },
+  "setKeyFullSize": {
+    "message": "Tam boyutta aç"
+  },
+  "setKeyCopyUrl": {
+    "message": "Medya adresini kopyala"
+  },
+  "setKeyViewerFit": {
+    "message": "Görüntüyü sığdır"
+  },
+  "setKeyViewerClose": {
+    "message": "Görüntüleyiciyi kapat"
+  },
+  "optPageTitle": {
+    "message": "Ayarlar · InstHush"
+  },
+  "optTitle": {
+    "message": "Ayarlar"
+  },
+  "optSkip": {
+    "message": "İçeriğe geç"
+  },
+  "optSearchLabel": {
+    "message": "Ayarlarda ara"
+  },
+  "optSearchPlaceholder": {
+    "message": "Ayarlarda ara"
+  },
+  "optSearchClear": {
+    "message": "Aramayı temizle"
+  },
+  "optNavLabel": {
+    "message": "Kategoriler"
+  },
+  "optResults": {
+    "message": "Arama sonuçları"
+  },
+  "optResultCount": {
+    "message": "$1 sonuç"
+  },
+  "optNoResults": {
+    "message": "Sonuç yok"
+  },
+  "optInside": {
+    "message": "$1 içinde"
+  },
+  "optOpenIn": {
+    "message": "$1 bölümünde aç"
+  },
+  "optOn": {
+    "message": "Açık"
+  },
+  "optOff": {
+    "message": "Kapalı"
+  },
+  "optCancel": {
+    "message": "Vazgeç"
+  },
+  "optRetry": {
+    "message": "Tekrar dene"
+  },
+  "optLoadError": {
+    "message": "Ayarlar okunamadı; tekrar dene."
+  },
+  "optKeyLabel": {
+    "message": "Kısayol: $1"
+  },
+  "optKeyNone": {
+    "message": "Yok"
+  },
+  "optKeyChange": {
+    "message": "Değiştir"
+  },
+  "optKeyClear": {
+    "message": "Temizle"
+  },
+  "optKeyDefault": {
+    "message": "Varsayılana dön"
+  },
+  "optKeyPress": {
+    "message": "Tuşa bas"
+  },
+  "optKeyRecording": {
+    "message": "Yeni kısayol için tuşa bas. Esc vazgeçer."
+  },
+  "optKeyFixed": {
+    "message": "Bu kısayol sabittir."
+  },
+  "optKeyConflict": {
+    "message": "Bu tuş zaten şunun için kullanılıyor: $1"
+  },
+  "optKeyReserved": {
+    "message": "Bu tuş tarayıcıya ayrılmış; başka bir tuş seç."
+  },
+  "optKeyNavigation": {
+    "message": "Bu tuş sayfada gezinmek için gerekli; başka bir tuş seç."
+  },
+  "optKeysCount": {
+    "message": "$1 özel kısayol"
+  },
+  "optKeyGroupNavigation": {
+    "message": "Gezinme"
+  },
+  "optKeyGroupPlayer": {
+    "message": "Oynatıcı"
+  },
+  "optKeyGroupMedia": {
+    "message": "Medya"
+  },
+  "optKeyGroupViewer": {
+    "message": "Görüntüleyici"
+  },
+  "optCtxGlobal": {
+    "message": "Instagram’ın her yerinde"
+  },
+  "optCtxFeed": {
+    "message": "Akışta ve gönderi penceresinde"
+  },
+  "optCtxPlayer": {
+    "message": "Etkin videoda"
+  },
+  "optCtxMedia": {
+    "message": "Seçili gönderide"
+  },
+  "optCtxViewer": {
+    "message": "Tam boyut görüntüleyicide"
+  },
+  "optExport": {
+    "message": "Dışa aktar"
+  },
+  "optImport": {
+    "message": "İçe aktar"
+  },
+  "optReset": {
+    "message": "Sıfırla"
+  },
+  "optBackupLists": {
+    "message": "Kişisel listeleri ekle (sessize alınanlar, favoriler)"
+  },
+  "optImportTitle": {
+    "message": "Yedeği gözden geçir"
+  },
+  "optImportDesc": {
+    "message": "Şu tercihler değişecek. Onaylamadan hiçbir şey kaydedilmez."
+  },
+  "optImportApply": {
+    "message": "Yedeği yükle"
+  },
+  "optNoChanges": {
+    "message": "Değişiklik yok."
+  },
+  "optListMute": {
+    "message": "Sessize alınanlar: $1 sözcük, $2 hesap"
+  },
+  "optListFavorites": {
+    "message": "Favoriler: $1 hesap"
+  },
+  "optResetTitle": {
+    "message": "Ayarları sıfırla"
+  },
+  "optResetDesc": {
+    "message": "Tercihler ilk kurulum değerlerine döner. Sessize alınanlar, favoriler, görülen gönderiler ve kullanım süresi korunur."
+  },
+  "optResetSyncOff": {
+    "message": "Tarayıcı hesabıyla eşitleme kapanır."
+  },
+  "optResetKeys": {
+    "message": "Özel kısayollar varsayılana döner."
+  },
+  "optResetDone": {
+    "message": "Ayarlar sıfırlandı."
+  },
+  "optSyncActive": {
+    "message": "Ayarlar eşitleniyor"
+  },
+  "optSyncTitle": {
+    "message": "Tarayıcı hesabınla eşitle"
+  },
+  "optSyncExplain": {
+    "message": "Uygun tercihler tarayıcı hesabın üzerinden diğer cihazlarına taşınır. İstediğin zaman kapatabilirsin."
+  },
+  "optSyncScope": {
+    "message": "Sessize alınanlar, favoriler, kullanım süresi, sayaçlar ve mesajlar eşitlenmez; bu cihazda kalır."
+  },
+  "optSyncEnable": {
+    "message": "Eşitlemeyi aç"
+  },
+  "optSyncChoiceTitle": {
+    "message": "Kullanılacak ayarları seç"
+  },
+  "optSyncChoiceDesc": {
+    "message": "Bu cihazdaki ve hesaptaki ayarlar farklı. Farklı olanlar:"
+  },
+  "optSyncUseLocal": {
+    "message": "Bu cihazdakini kullan"
+  },
+  "optSyncUseRemote": {
+    "message": "Hesaptakini kullan"
+  },
+  "optSyncOff": {
+    "message": "Eşitleme kapalı. Ayarlar yalnızca bu cihazda."
+  },
+  "optSyncPending": {
+    "message": "Eşitleme bekliyor…"
+  },
+  "optSyncSynced": {
+    "message": "Eşitlendi."
+  },
+  "optSyncError": {
+    "message": "Eşitlenemedi: $1"
+  },
+  "optSyncError_quota": {
+    "message": "tarayıcı eşitleme sınırına ulaşıldı"
+  },
+  "optSyncError_unavailable": {
+    "message": "tarayıcı eşitlemesi kullanılamıyor"
+  },
+  "optSyncError_write": {
+    "message": "kayıt başarısız"
+  },
+  "optSyncRetry": {
+    "message": "Tekrar dene"
+  },
+  "optSyncUnavailable": {
+    "message": "Bu tarayıcıda hesap eşitlemesi yok."
+  },
+  "optSyncTurnedOn": {
+    "message": "Eşitleme açıldı."
+  },
+  "optSyncTurnedOff": {
+    "message": "Eşitleme kapatıldı; bu cihazdaki ayarlar korundu."
+  },
+  "optSyncFailed": {
+    "message": "Eşitleme açılamadı; tekrar dene."
+  },
+  "popupAllSettings": {
+    "message": "Ayarların tümü",
+    "description": "Popup and dock footer button that opens the Settings page."
+  },
+  "popupSettingsError": {
+    "message": "Ayarlar açılamadı; tekrar dene.",
+    "description": "Popup message when the Settings page cannot open."
+  },
+  "dockSettingsError": {
+    "message": "Ayarlar açılamadı; tekrar dene.",
+    "description": "Dock pill when the Settings page cannot open."
+  },
+  "dockCtxFeed": {
+    "message": "Akış",
+    "description": "Dock context heading on the home feed."
+  },
+  "dockCtxProfile": {
+    "message": "Profil",
+    "description": "Dock context heading on a profile."
+  },
+  "dockCtxPost": {
+    "message": "Gönderi",
+    "description": "Dock context heading on a post page."
+  },
+  "dockCtxDm": {
+    "message": "Mesajlar",
+    "description": "Dock context heading in a DM thread."
+  },
+  "dockCtxReels": {
+    "message": "Reels",
+    "description": "Dock context heading on Reels."
+  },
+  "dockNoMedia": {
+    "message": "Bu sayfada indirilecek medya bulunamadı.",
+    "description": "Dock pill when the post has no downloadable media."
+  },
+  "commentSaveGif": {
+    "message": "GIF’i kaydet"
+  },
+  "toastGifSaving": {
+    "message": "GIF kaydediliyor."
+  },
+  "toastGifError": {
+    "message": "İndirilemedi."
+  },
+  "dmArchiveTitle": {
+    "message": "Geri alınanlar"
+  },
+  "dmArchiveMark": {
+    "message": "Geri alındı"
+  },
+  "dmArchiveEmpty": {
+    "message": "Bu sohbette saklanan geri alınmış mesaj yok."
+  },
+  "dmArchiveMedia": {
+    "message": "Medya eklentisi"
+  },
+  "dmArchiveClose": {
+    "message": "Kapat"
+  },
+  "dmArchiveClear": {
+    "message": "Temizle"
+  },
+  "dmArchiveConfirm": {
+    "message": "Bu sohbetin arşivi silinecek."
+  },
+  "dmArchiveCancel": {
+    "message": "Vazgeç"
+  },
+  "dmArchiveJson": {
+    "message": "JSON olarak kaydet"
+  },
+  "dmArchiveTxt": {
+    "message": "TXT olarak kaydet"
+  },
+  "dmArchiveError": {
+    "message": "Arşiv işlemi tamamlanamadı."
+  },
+  "dmArchiveLoading": {
+    "message": "Arşiv yükleniyor…"
+  },
+  "voiceDownloadBtn": {
+    "message": "Sesli mesajı indir"
+  },
+  "toastVoiceStarted": {
+    "message": "Sesli mesaj indiriliyor."
+  },
+  "toastVoiceError": {
+    "message": "Sesli mesaj indirilemedi."
+  },
+  "toastVoiceNone": {
+    "message": "İndirilecek sesli mesaj bulunamadı."
+  },
+  "toastNoMediaUnderCursor": {
+    "message": "İmlecin altında indirilecek Instagram medyası bulunamadı."
+  },
+  "confirmText": {
+    "message": "Otomatik takipten çıkarma Instagram tarafından hesabının kısıtlanmasına ya da banlanmasına yol açabilir. Elle takipten çıkmanı öneriyoruz. Yine de başlatmak için onayla."
+  },
+  "confirmCancel": {
+    "message": "Vazgeç"
+  },
+  "confirmStart": {
+    "message": "Riski anlıyorum, başlat"
+  },
+  "persistentWarning": {
+    "message": "Hesabın için ban riski var, elle takipten çıkmanı öneriyoruz. Otomatik takipten çıkarma Instagram tarafından hesabının kısıtlanmasına ya da banlanmasına yol açabilir."
+  },
+  "shortWarning": {
+    "message": "Hesabın için ban riski var, elle takipten çıkmanı öneriyoruz."
+  },
+  "dialogTitle": {
+    "message": "Takipten çıkma kuyruğunu başlat"
+  },
+  "queueSummary": {
+    "message": "Seçilen hesap: $1 · Günlük kalan hak: $2 / $3"
+  },
+  "pacingNote": {
+    "message": "Her işlem arasında 45–90 sn rastgele beklenir, her 10 hesapta bir 10 dk güvenlik molası verilir (günlük en fazla 50 hesap). Herhangi bir 429 veya doğrulama uyarısında anında durur ve 24 saat beklemeye geçer."
+  },
+  "privateNote": {
+    "message": "Listedeki gizli hesapları tekrar takip etmek istersen yeni takip isteği göndermen gerekir."
+  },
+  "statusIdle": {
+    "message": "Kuyruk hazır. Günlük kalan hak: $1 / $2"
+  },
+  "statusRunning": {
+    "message": "@$1 takipten çıkarılıyor ($2 / $3)…"
+  },
+  "statusWaiting": {
+    "message": "$1 / $2 tamamlandı · Sıradaki işlem $3 sn sonra…"
+  },
+  "statusSafetyPause": {
+    "message": "Güvenlik molası ($1 kaldı) · $2 / $3 tamamlandı"
+  },
+  "statusDailyCap": {
+    "message": "Günlük takipten çıkma sınırına ulaşıldı ($1 / $2). Yarın devam edebilirsin."
+  },
+  "statusRateLimited": {
+    "message": "Instagram işlemi kısıtladı (429 / doğrulama). Kuyruk durduruldu ve 24 saat soğumaya alındı."
+  },
+  "statusStoppedFails": {
+    "message": "Arka arkaya $1 işlem doğrulanamadığı için kuyruk güvenlik amacıyla durduruldu."
+  },
+  "statusCancelled": {
+    "message": "Kuyruk durduruldu ($1 / $2 tamamlandı)."
+  },
+  "statusCompleted": {
+    "message": "Kuyruk tamamlandı ($1 / $2 takipten çıkarıldı)."
+  },
+  "statusPausedReload": {
+    "message": "Kaydedilmiş kuyruk ($1 / $2 tamamlandı). Kaldığı yerden devam etmeye hazır."
+  },
+  "btnStartQueue": {
+    "message": "Kuyruğu başlat ($1)"
+  },
+  "btnResumeQueue": {
+    "message": "Devam et ($1 kaldı)"
+  },
+  "btnCancelQueue": {
+    "message": "Kuyruğu durdur"
+  },
+  "btnStopping": {
+    "message": "Durduruluyor…"
+  },
+  "unfTitle": {
+    "message": "Takibi bırakanları kontrol et"
+  },
+  "unfTrigger": {
+    "message": "Takibi bırakanlar"
+  },
+  "unfClose": {
+    "message": "Kapat"
+  },
+  "unfScan": {
+    "message": "Tara"
+  },
+  "unfRescan": {
+    "message": "Yeniden tara"
+  },
+  "unfResume": {
+    "message": "Taramaya devam et"
+  },
+  "unfPause": {
+    "message": "Duraklat"
+  },
+  "unfExportCsv": {
+    "message": "CSV dışa aktar"
+  },
+  "unfQueueBtn": {
+    "message": "Takipten çıkma kuyruğu ($1)"
+  },
+  "unfSearchPlaceholder": {
+    "message": "Kullanıcı adı veya isim ara"
+  },
+  "unfSearchLabel": {
+    "message": "Ara"
+  },
+  "unfSelectAll": {
+    "message": "Tümünü seç ($1)"
+  },
+  "unfSelectAllShown": {
+    "message": "Gösterilenleri seç ($1)"
+  },
+  "unfClearSelection": {
+    "message": "Seçimi temizle"
+  },
+  "unfSelectedCount": {
+    "message": "$1 seçildi"
+  },
+  "unfKeptCount": {
+    "message": "$1 korumada"
+  },
+  "unfKeepBtn": {
+    "message": "Koru"
+  },
+  "unfKeptBtn": {
+    "message": "Korunuyor"
+  },
+  "unfKeepTip": {
+    "message": "Koru: bu hesap hiçbir zaman takipten çıkma kuyruğuna alınmaz"
+  },
+  "unfKeptTip": {
+    "message": "Korumada: takipten çıkma kuyruğuna alınmaz. Kaldırmak için tıkla."
+  },
+  "unfNotScanned": {
+    "message": "Henüz tarama yapılmadı."
+  },
+  "unfLastScan": {
+    "message": "Son tarama: $1 · $2 takipçi · $3 takip edilen"
+  },
+  "unfPartialScan": {
+    "message": "Yarım kalan tarama: $1 · $2 takipçi · $3 takip edilen"
+  },
+  "unfLoadingFollowers": {
+    "message": "Takipçiler yükleniyor… $1"
+  },
+  "unfLoadingFollowing": {
+    "message": "Takip edilenler yükleniyor… $1"
+  },
+  "unfSafetyPause": {
+    "message": "Güvenlik molası, $1 sn… ($2 hesap okundu)"
+  },
+  "unfRateLimited": {
+    "message": "Instagram istekleri geçici olarak sınırladı ($1 dk bekle). İlerleme kaydedildi."
+  },
+  "unfLoginRequired": {
+    "message": "Önce Instagram'a giriş yapmalısın."
+  },
+  "unfEmptyBeforeScan": {
+    "message": "Takipçilerini ve takip ettiklerini yüklemek için Tara'ya bas."
+  },
+  "unfEmptyList": {
+    "message": "Burada kimse yok."
+  },
+  "unfEmptyHistory": {
+    "message": "Değişiklikler ikinci tam taramadan itibaren burada görünür. Her tarama bir öncekiyle karşılaştırılır."
+  },
+  "unfEmptyKeep": {
+    "message": "Koruma listen boş. Listelerdeki 'Koru' düğmesiyle veya yukarıdan hesap ekleyebilirsin."
+  },
+  "unfKeepAddPlaceholder": {
+    "message": "@kullanıcıadı ekle"
+  },
+  "unfKeepAddBtn": {
+    "message": "Ekle"
+  },
+  "unfShowingFirst": {
+    "message": "İlk $1 kayıt gösteriliyor (toplam $2). Geri kalanı için arama yap veya CSV dışa aktar."
+  },
+  "unfSinceScan": {
+    "message": "$1 tarihli taramadan bu yana"
+  },
+  "unfNoChangesSince": {
+    "message": "$1 tarihli taramadan bu yana değişiklik yok"
+  },
+  "unfNewBadge": {
+    "message": "Yeni"
+  },
+  "unfFirstScanRow": {
+    "message": "İlk tarama: $1 takipçi · $2 takip edilen"
+  },
+  "unfHistoryRowHead": {
+    "message": "$1 takipçi ($2) · $3 takip edilen ($4)"
+  },
+  "unfNoChangesEntry": {
+    "message": "Önceki taramadan bu yana değişiklik yok."
+  },
+  "unfShowAllChanges": {
+    "message": "Tüm değişiklikleri göster"
+  },
+  "reelCounterBadge": {
+    "message": "Bugün $1 reel"
+  },
+  "reelCounterBadgeOne": {
+    "message": "Bugün $1 reel"
+  },
+  "reelCounterAria": {
+    "message": "Bugün $1 reel"
+  },
+  "focusLimitPill": {
+    "message": "Bugün $1 kaldı"
+  },
+  "focusLimitTitle": {
+    "message": "Bugünkü süren doldu"
+  },
+  "focusLimitBody": {
+    "message": "Bugün Reels ve Keşfet’te $1 geçirdin. Gece yarısı sıfırlanır."
+  },
+  "focusLimitMore": {
+    "message": "+5 dk"
+  },
+  "focusLimitHome": {
+    "message": "Ana sayfaya dön"
+  },
+  "mediaToolbarLabel": {
+    "message": "Medya araç çubuğu"
+  },
+  "mediaDownloadOne": {
+    "message": "Medyayı indir"
+  },
+  "mediaDownloadAll": {
+    "message": "Tümünü indir"
+  },
+  "mediaViewFull": {
+    "message": "Tam boyutta aç"
+  },
+  "mediaCopyUrl": {
+    "message": "Medya adresini kopyala"
+  },
+  "mediaCopyCaption": {
+    "message": "Açıklamayı kopyala"
+  },
+  "avatarViewFull": {
+    "message": "HD profil fotoğrafını görüntüle"
+  },
+  "zoomTitle": {
+    "message": "Tam boyutta görüntüleyici"
+  },
+  "toastUrlCopied": {
+    "message": "Medya adresi kopyalandı."
+  },
+  "toastCaptionCopied": {
+    "message": "Açıklama kopyalandı."
+  },
+  "toastNoCaption": {
+    "message": "Bu gönderide açıklama yok."
+  },
+  "toastZoomPhotoOnly": {
+    "message": "Yalnızca fotoğraflar yakınlaştırılabilir."
+  },
+  "toastClipboardError": {
+    "message": "Panoya kopyalanamadı."
+  },
+  "contextMenuDownload": {
+    "message": "InstHush ile indir"
+  },
+  "storyDetailsBtn": {
+    "message": "Hikâye ayrıntıları"
+  },
+  "storyDetailsBtnCount": {
+    "message": "Hikâye ayrıntıları ($1)"
+  },
+  "storyDetailsTitle": {
+    "message": "Hikâye ayrıntıları"
+  },
+  "storyDetailsTitleUser": {
+    "message": "@$1 hikâye ayrıntıları"
+  },
+  "storyDetailsClose": {
+    "message": "Kapat"
+  },
+  "storyDetailsLoading": {
+    "message": "Yükleniyor…"
+  },
+  "storyDetailsEmpty": {
+    "message": "Bu hikâyede bahsetme, etiket, bağlantı veya müzik yok."
+  },
+  "storyDetailsError": {
+    "message": "Hikâye ayrıntıları yüklenemedi."
+  },
+  "storyDetailsRateLimited": {
+    "message": "Instagram istekleri geçici olarak sınırladı ($1 dk bekle)."
+  },
+  "storyDetailsMentions": {
+    "message": "Bahsetmeler"
+  },
+  "storyDetailsHiddenNote": {
+    "message": "$1 gizli (çok küçük, gizli işaretli veya kadraj dışında)."
+  },
+  "storyDetailsHiddenPill": {
+    "message": "gizli"
+  },
+  "storyDetailsHiddenTip": {
+    "message": "Hikâyede görünür değil"
+  },
+  "storyDetailsHashtags": {
+    "message": "Etiketler"
+  },
+  "storyDetailsLocations": {
+    "message": "Konum"
+  },
+  "storyDetailsLinks": {
+    "message": "Bağlantılar"
+  },
+  "storyDetailsMusic": {
+    "message": "Müzik"
+  },
+  "storyDetailsSharedPosts": {
+    "message": "Paylaşılan gönderiler"
+  },
+  "storyDetailsPostLabel": {
+    "message": "Gönderi"
+  },
+  "storyDetailsReelLabel": {
+    "message": "Reels"
+  },
+  "followBadgeMutual": {
+    "message": "Karşılıklı"
+  },
+  "followBadgeMutualTitle": {
+    "message": "Birbirinizi takip ediyorsunuz"
+  },
+  "followBadgeFollowsYou": {
+    "message": "Seni takip ediyor"
+  },
+  "followBadgeFollowsYouTitle": {
+    "message": "Bu hesap seni takip ediyor"
+  },
+  "followBadgeNotFollowingBack": {
+    "message": "Seni takip etmiyor"
+  },
+  "followBadgeNotFollowingBackTitle": {
+    "message": "Bu hesap seni takip etmiyor"
+  },
+  "followBadgeNotFollowing": {
+    "message": "Takip etmiyorsun"
+  },
+  "followBadgeNotFollowingTitle": {
+    "message": "Bu hesabı takip etmiyorsun ve o da seni takip etmiyor"
+  },
+  "followBadgeLoading": {
+    "message": "Takip durumu kontrol ediliyor"
+  },
+  "followBadgeUnknown": {
+    "message": "Takip durumu"
+  },
+  "followBadgeUnknownTitle": {
+    "message": "Bu hesabın seni takip edip etmediğini görmek için tıkla"
+  },
+  "followBadgeDetailsHint": {
+    "message": "$1 · Ayrıntılar için tıkla"
+  },
+  "followDetailsTitle": {
+    "message": "Sen ve @$1"
+  },
+  "followDetailsClose": {
+    "message": "Kapat"
+  },
+  "followDetailsLoading": {
+    "message": "Yükleniyor…"
+  },
+  "followDetailsError": {
+    "message": "Takip ayrıntıları yüklenemedi."
+  },
+  "followDetailsRateLimited": {
+    "message": "Instagram istekleri geçici olarak sınırladı ($1 dk bekle)."
+  },
+  "followDetailsPrivate": {
+    "message": "Gizli hesap"
+  },
+  "followDetailsSectionFollowing": {
+    "message": "Takip durumu"
+  },
+  "followDetailsSectionSettings": {
+    "message": "Bu hesap için ayarların"
+  },
+  "followDetailsYouFollow": {
+    "message": "Sen takip ediyorsun"
+  },
+  "followDetailsTheyFollow": {
+    "message": "Seni takip ediyor"
+  },
+  "followDetailsYes": {
+    "message": "Evet"
+  },
+  "followDetailsNo": {
+    "message": "Hayır"
+  },
+  "followDetailsRequested": {
+    "message": "İstek gönderildi"
+  },
+  "followDetailsIncoming": {
+    "message": "Takip etmek istiyor"
+  },
+  "followDetailsCloseFriend": {
+    "message": "Yakın arkadaş"
+  },
+  "followDetailsFavorite": {
+    "message": "Favori"
+  },
+  "followDetailsMutedPosts": {
+    "message": "Gönderiler sessize alındı"
+  },
+  "followDetailsMutedStories": {
+    "message": "Hikâyeler sessize alındı"
+  },
+  "followDetailsMutedNotes": {
+    "message": "Notlar sessize alındı"
+  },
+  "followDetailsRestricted": {
+    "message": "Kısıtlandı"
+  },
+  "followDetailsStoryHidden": {
+    "message": "Hikâyen bu hesaptan gizlendi"
+  },
+  "followDetailsBlocked": {
+    "message": "Engellendi"
+  },
+  "followDetailsSubscribed": {
+    "message": "Abone olundu"
+  },
+  "saveSoundWorking": {
+    "message": "MP3 hazırlanıyor…"
+  },
+  "saveSoundStarted": {
+    "message": "MP3 indirmesi başladı."
+  },
+  "saveSoundMissing": {
+    "message": "Bu videoda kaydedilebilir ses bulunamadı."
+  },
+  "saveSoundBusy": {
+    "message": "Bir medya işlemi sürüyor. Biraz sonra tekrar dene."
+  },
+  "saveSoundSize": {
+    "message": "Bu medya MP3 dönüştürme sınırını aşıyor."
+  },
+  "saveSoundTarget": {
+    "message": "Video değişti veya seçilemedi. Menüyü yeniden aç."
+  },
+  "saveSoundFailed": {
+    "message": "Ses MP3 olarak kaydedilemedi."
+  },
+  "optGrayscaleNever": {
+    "message": "Kapalı"
+  },
+  "optGrayscaleLimited": {
+    "message": "Reels ve Keşfet’te her zaman"
+  },
+  "optGrayscaleLimit": {
+    "message": "Süre dolunca"
+  },
+  "optGrayscaleAlways": {
+    "message": "Her yerde"
+  },
+  "optFormatZip": {
+    "message": "ZIP arşivi"
+  },
+  "optFormatFiles": {
+    "message": "Ayrı dosyalar"
+  },
+  "optTemplatePreview": {
+    "message": "Örnek: $1"
+  },
+  "optTemplateInvalid": {
+    "message": "Bu şablondan dosya adı oluşmuyor."
+  },
+  "optTemplateTooLong": {
+    "message": "Şablon en fazla 6 klasör düzeyi ve 240 karakter olabilir."
+  },
+  "optTextTooLong": {
+    "message": "Bu metin çok uzun."
+  },
+  "optShareDomainInvalid": {
+    "message": "Geçerli bir alan adı yaz (ör. kkinstagram.com)."
+  },
+  "optShareDomainPreview": {
+    "message": "Örnek: $1"
+  },
+  "optShareDomainEmpty": {
+    "message": "Boş: linkler instagram.com ile kopyalanır."
+  },
+  "optMp3PermissionDenied": {
+    "message": "MP3 için Instagram medya sunucularına erişim izni gerekiyor; izin verilmediği için kapalı kaldı."
+  },
+  "riskIntro": {
+    "message": "Bunlar Instagram'a ek istek gönderir veya özel veri saklar. Her biri ayrı açılır ve varsayılan olarak kapalıdır."
+  },
+  "riskEnable": {
+    "message": "Riski anlıyorum, aç"
+  },
+  "riskRateWarning": {
+    "message": "Instagram istekleri sınırlayabilir. İşlem yavaş çalışır, ara verir ve doğrulama istenirse durur."
+  },
+  "riskScanWarning": {
+    "message": "Tarama takipçi listeni Instagram'dan yavaşça okur; sık taramak istek sınırına takılabilir. Sonuçlar yalnızca bu cihazda saklanır."
+  },
+  "riskQueueWarning": {
+    "message": "Hesabın için ban riski var, elle takipten çıkmanı öneriyoruz."
+  },
+  "riskQueueDetail": {
+    "message": "Kuyruk yalnızca seçtiğin hesaplar için, ikinci onaydan sonra çalışır: işlemler arasında 45–90 sn bekler, günde en fazla 50 hesap çıkarır ve Instagram uyarı verirse durur."
+  },
+  "riskUnsentWarning": {
+    "message": "Geri alınan mesajlar yalnızca bu cihazda saklanır."
+  },
+  "riskUnsentDetail": {
+    "message": "Açıkken, sana gelen ve gönderen tarafından sonradan geri alınan mesajlar 30 güne kadar tutulur. Eşitlemeye, ayar yedeğine ve raporlara girmez."
+  },
+  "riskUnsentClear": {
+    "message": "Mesajları temizle"
+  },
+  "riskUnsentCount": {
+    "message": "Bu cihazda $1 mesaj saklı."
+  },
+  "riskUnsentClearConfirm": {
+    "message": "Bu cihazda saklanan $1 geri alınmış mesaj silinecek. Bu işlem geri alınamaz."
+  },
+  "riskUnsentCleared": {
+    "message": "Saklanan mesajlar silindi."
+  },
+  "dockCtxStory": {
+    "message": "Hikâye"
+  },
+  "dockCtxExplore": {
+    "message": "Keşfet"
+  },
+  "setGroupHealth": {
+    "message": "Instagram uyumu"
+  },
+  "optHealthRun": {
+    "message": "Kontrolü çalıştır"
+  },
+  "optHealthCopy": {
+    "message": "Raporu kopyala"
+  },
+  "optHealthClose": {
+    "message": "Sonuçları kapat"
+  },
+  "optHealthOwn": {
+    "message": "InstHush"
+  },
+  "optHealthAffects": {
+    "message": "Etkilenen: $1"
+  },
+  "optHealthSummary_pass": {
+    "message": "Her şey çalışıyor."
+  },
+  "optHealthSummary_warn": {
+    "message": "Çoğu şey çalışıyor, bazı uyarılar var."
+  },
+  "optHealthSummary_fail": {
+    "message": "Bir şeyler bozulmuş."
+  },
+  "optHealthSummary_skip": {
+    "message": "Bu kez hiçbir şey denetlenemedi."
+  },
+  "optHealthLast": {
+    "message": "Son kontrol: $1"
+  },
+  "optHealthNever": {
+    "message": "Henüz çalıştırılmadı."
+  },
+  "optHealthRunning": {
+    "message": "Kontrol ediliyor…"
+  },
+  "optHealthStep": {
+    "message": "Kontrol ediliyor: $1 · $2 / $3"
+  },
+  "optHealthDone": {
+    "message": "Sağlık kontrolü bitti."
+  },
+  "optHealthBusy": {
+    "message": "Bir kontrol zaten çalışıyor."
+  },
+  "optHealthFailed": {
+    "message": "Kontrol çalıştırılamadı. Tekrar dene."
+  },
+  "optHealthLoggedOut": {
+    "message": "Instagram'da oturum açık değil. Oturum açıp kontrolü yeniden çalıştır."
+  },
+  "optHealthCopied": {
+    "message": "Rapor kopyalandı."
+  },
+  "optHealthCopyFailed": {
+    "message": "Rapor kopyalanamadı."
+  },
+  "optHealthConfirmTitle": {
+    "message": "Kontrol arka planda bir Instagram sekmesi açacak"
+  },
+  "optHealthConfirmDesc": {
+    "message": "Hesabında hiçbir şey değişmez. Instagram'a kendi başına hiçbir istek göndermez; sayfalar senin açtığın gibi yüklenir."
+  },
+  "optHealthStep1": {
+    "message": "Sırayla Ana sayfa, bir gönderi, bir profil, Reels, Keşfet ve gelen kutusu açılır."
+  },
+  "optHealthStep2": {
+    "message": "Gönderi ve profil, kendi akışından seçilir."
+  },
+  "optHealthStep3": {
+    "message": "Hikâye ve sohbet hiç açılmaz."
+  },
+  "optHealthStep4": {
+    "message": "Bitince sekme kapanır. Rapor kullanıcı adı, bağlantı ve kimlik içermez."
+  },
+  "hcStatus_pass": {
+    "message": "Geçti"
+  },
+  "hcStatus_warn": {
+    "message": "Uyarı"
+  },
+  "hcStatus_fail": {
+    "message": "Başarısız"
+  },
+  "hcStatus_skip": {
+    "message": "Atlandı"
+  },
+  "hcGroup_home": {
+    "message": "Ana sayfa"
+  },
+  "hcGroup_post": {
+    "message": "Bir gönderi"
+  },
+  "hcGroup_profile": {
+    "message": "Bir profil"
+  },
+  "hcGroup_reels": {
+    "message": "Reels"
+  },
+  "hcGroup_explore": {
+    "message": "Keşfet"
+  },
+  "hcGroup_direct": {
+    "message": "Mesajlar"
+  },
+  "hcGroup_stories": {
+    "message": "Hikâyeler"
+  },
+  "hc_page": {
+    "message": "Sayfa betiği"
+  },
+  "hc_relay": {
+    "message": "Instagram sayfa verisi"
+  },
+  "hc_feed": {
+    "message": "Gönderi düzeni"
+  },
+  "hc_postdata": {
+    "message": "Gönderi verisi"
+  },
+  "hc_nav": {
+    "message": "Gezinti menüsü"
+  },
+  "hc_stories": {
+    "message": "Hikâye şeridi"
+  },
+  "hc_comments": {
+    "message": "Yorumlar"
+  },
+  "hc_profile": {
+    "message": "Profil düzeni"
+  },
+  "hc_avatar": {
+    "message": "Profil resmi yakalama"
+  },
+  "hc_bulk": {
+    "message": "Toplu indirme biçimi"
+  },
+  "hc_reels": {
+    "message": "Reels oynatıcı"
+  },
+  "hc_explore": {
+    "message": "Keşfet ızgarası"
+  },
+  "hc_inbox": {
+    "message": "Gelen kutusu"
+  },
+  "hc_cooldown": {
+    "message": "İstek sınırı"
+  },
+  "hc_errors": {
+    "message": "Özellik hataları"
+  },
+  "hc_error": {
+    "message": "Özellik hataları"
+  },
+  "hc_session": {
+    "message": "Oturum"
+  },
+  "hc_tab": {
+    "message": "Instagram sekmesi"
+  },
+  "hc_stopped": {
+    "message": "Kontrol durduruldu"
+  },
+  "hc_stories_viewer": {
+    "message": "Hikâye görüntüleyici"
+  },
+  "hc_step": {
+    "message": "Sayfa"
+  },
+  "hc_post_step": {
+    "message": "Sayfa"
+  },
+  "hc_profile_step": {
+    "message": "Sayfa"
+  },
+  "hc_page_pass": {
+    "message": "Bağlandı."
+  },
+  "hc_page_fail": {
+    "message": "Sayfa betiği yanıt vermiyor."
+  },
+  "hc_relay_pass": {
+    "message": "Bulundu ve okunabiliyor."
+  },
+  "hc_relay_fail": {
+    "message": "Instagram'ın sayfa verisi bulunamadı. Gönderi okuyan özellikler Instagram'a sormak zorunda kalır."
+  },
+  "hc_relay_skip": {
+    "message": "Sayfa betiği gerekiyor."
+  },
+  "hc_feed_pass": {
+    "message": "Ekrandaki $1 gönderi tanındı."
+  },
+  "hc_feed_warn": {
+    "message": "Tarihi olmayan gönderiler bulundu."
+  },
+  "hc_feed_fail": {
+    "message": "Gönderiler ekranda ama InstHush'ın aradığı yerde değil."
+  },
+  "hc_feed_skip": {
+    "message": "Gönderiler zamanında yüklenmedi. Kontrolü yeniden çalıştır."
+  },
+  "hc_postdata_pass": {
+    "message": "Ekrandaki bir gönderinin medyası okundu ($1 dosya)."
+  },
+  "hc_postdata_warn": {
+    "message": "Ekrandaki gönderi sayfa verisinde bulunamadı. İndirmeler Instagram'a sormaya döner."
+  },
+  "hc_postdata_fail": {
+    "message": "Gönderi bulundu ama fotoğraf ya da video bağlantıları okunamadı."
+  },
+  "hc_postdata_skip": {
+    "message": "Sayfa verisi gerekiyor ya da sayfada gönderi yok."
+  },
+  "hc_nav_pass": {
+    "message": "Reels ve Keşfet bağlantıları bulundu."
+  },
+  "hc_nav_warn": {
+    "message": "Menüde Reels ya da Keşfet bağlantısı bulunamadı."
+  },
+  "hc_stories_pass": {
+    "message": "Hikâye şeridi bulundu."
+  },
+  "hc_stories_skip": {
+    "message": "Şu an hikâye şeridi yok. Yalnızca takip ettiklerin hikâye paylaşınca görünür."
+  },
+  "hc_comments_pass": {
+    "message": "Yorumlar ve yanıtla düğmesi bulundu."
+  },
+  "hc_comments_warn": {
+    "message": "Yorumlar bulundu ama yanıtla düğmesi bulunamadı."
+  },
+  "hc_comments_skip": {
+    "message": "Bu gönderide yorum yok."
+  },
+  "hc_profile_pass": {
+    "message": "Başlık, resim ve kullanıcı adı bulundu."
+  },
+  "hc_profile_warn": {
+    "message": "Profil başlığı bulundu ama içinde resim ya da kullanıcı adı yok."
+  },
+  "hc_profile_fail": {
+    "message": "Profil başlığı bulunamadı."
+  },
+  "hc_avatar_pass": {
+    "message": "Resim Instagram'ın kendi yanıtından yakalandı."
+  },
+  "hc_avatar_warn": {
+    "message": "Instagram'ın yanıtında resim yoktu. Resim sayfadan alınır."
+  },
+  "hc_avatar_skip": {
+    "message": "Sayfa köprüsü gerekiyor."
+  },
+  "hc_bulk_pass": {
+    "message": "Instagram'ın profil isteği biçimi yakalandı."
+  },
+  "hc_bulk_warn": {
+    "message": "Instagram profil gönderilerini beklenen biçimde yüklemedi."
+  },
+  "hc_bulk_skip": {
+    "message": "Toplu profil indirme kapalı."
+  },
+  "hc_reels_pass": {
+    "message": "Reels videosu bulundu."
+  },
+  "hc_reels_fail": {
+    "message": "Reels videosu bulunamadı."
+  },
+  "hc_explore_pass": {
+    "message": "Izgarada gönderiler bulundu."
+  },
+  "hc_explore_fail": {
+    "message": "Izgaradaki gönderiler bulunamadı."
+  },
+  "hc_inbox_pass": {
+    "message": "Gelen kutusu açıldı. Sohbet açılmadığı için hiçbir şey okundu olarak işaretlenmez."
+  },
+  "hc_inbox_warn": {
+    "message": "Instagram kendiliğinden bir sohbet açtı. InstHush sohbet açmaz."
+  },
+  "hc_inbox_fail": {
+    "message": "Instagram gelen kutusu yerine başka bir sayfa açtı."
+  },
+  "hc_cooldown_pass": {
+    "message": "İstek sınırı yok."
+  },
+  "hc_cooldown_warn": {
+    "message": "Instagram InstHush'ın isteklerini sınırladı. Yaklaşık $1 dk daha duraklatıldı."
+  },
+  "hc_errors_pass": {
+    "message": "Kayıtlı özellik hatası yok."
+  },
+  "hc_error_fail": {
+    "message": "Tekrarlanan hatalar yüzünden durduruldu (yakın zamanda)."
+  },
+  "hc_error_warn": {
+    "message": "Eskiden tekrarlanan hatalar yüzünden durdu."
+  },
+  "hc_session_fail": {
+    "message": "Bu tarayıcıda Instagram'a giriş yapılmamış."
+  },
+  "hc_tab_fail": {
+    "message": "Kontrol için sekme açılamadı."
+  },
+  "hc_stopped_warn": {
+    "message": "Kontrol tamamlanmadan durduruldu (sekme kapandı ya da Instagram hikâye/sohbete yönlendirdi)."
+  },
+  "hc_stories_viewer_skip": {
+    "message": "Açılmadı, çünkü sahibi bir görüntülenme görürdü. Hikâye özelliklerini kendin bir hikâye açarak dene."
+  },
+  "hc_step_skip": {
+    "message": "Ana sayfada açılacak bir şey bulunamadı."
+  },
+  "hc_step_fail": {
+    "message": "InstHush bu sayfada yanıt vermedi."
+  },
+  "hc_post_step_skip": {
+    "message": "Ana sayfada açılacak gönderi yoktu."
+  },
+  "hc_profile_step_skip": {
+    "message": "Ana sayfada açılacak profil yoktu."
+  },
+  "hcAff_downloads": {
+    "message": "İndirmeler"
+  },
+  "hcAff_story_and_message_privacy": {
+    "message": "Hikâye ve mesaj gizliliği"
+  },
+  "hcAff_follow_badge": {
+    "message": "Takip rozeti"
+  },
+  "hcAff_story_details": {
+    "message": "Hikâye ayrıntıları"
+  },
+  "hcAff_full_size_view": {
+    "message": "Tam boyut görünüm"
+  },
+  "hcAff_copy_media_link": {
+    "message": "Medya bağlantısını kopyala"
+  },
+  "hcAff_exact_dates": {
+    "message": "Tam tarihler"
+  },
+  "hcAff_media_toolbar": {
+    "message": "Medya araç çubuğu"
+  },
+  "hcAff_ad_cleanup": {
+    "message": "Reklam temizliği"
+  },
+  "hcAff_keyboard_keys": {
+    "message": "Klavye kısayolları"
+  },
+  "hcAff_seen_posts": {
+    "message": "Görülen gönderiler"
+  },
+  "hcAff_hide_reels_tab": {
+    "message": "Reels sekmesini gizle"
+  },
+  "hcAff_hide_explore_tab": {
+    "message": "Keşfet sekmesini gizle"
+  },
+  "hcAff_focus_mode": {
+    "message": "Odak modu"
+  },
+  "hcAff_copy_comment": {
+    "message": "Yorumu kopyala"
+  },
+  "hcAff_author_badge": {
+    "message": "Yazar rozeti"
+  },
+  "hcAff_comment_gif_save": {
+    "message": "Yorumdaki GIF'i kaydet"
+  },
+  "hcAff_hd_profile_picture": {
+    "message": "HD profil resmi"
+  },
+  "hcAff_bulk_download": {
+    "message": "Toplu indirme"
+  },
+  "hcAff_video_controls": {
+    "message": "Video kontrolleri"
+  },
+  "hcAff_reel_counter": {
+    "message": "Reel sayacı"
+  },
+  "hcAff_reel_ad_cleanup": {
+    "message": "Reel reklam temizliği"
+  },
+  "hcAff_next_reel_when_one_ends": {
+    "message": "Reel bitince sonraki"
+  },
+  "hcAff_hover_zoom": {
+    "message": "Üzerine gelince büyüt"
+  },
+  "hcAff_daily_limit": {
+    "message": "Günlük sınır"
+  },
+  "hcAff_message_privacy": {
+    "message": "Mesaj gizliliği"
+  },
+  "hcAff_voice_message_save": {
+    "message": "Sesli mesaj kaydı"
+  },
+  "hcAff_keep_unsent_messages": {
+    "message": "Geri alınan mesajları sakla"
+  },
+  "hcAff_unfollowers": {
+    "message": "Takibi bırakanlar"
+  },
+  "hcAff_most_features": {
+    "message": "Çoğu özellik"
+  },
+  "hcAff_the_health_check": {
+    "message": "Sağlık kontrolü"
+  },
+  "hcAff_everything_on_this_page": {
+    "message": "Bu sayfadaki her şey"
+  }
+}

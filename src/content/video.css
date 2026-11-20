@@ -1,0 +1,19 @@
+.iy-host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483000;
+  display: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  pointer-events: none;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.iy-host.iy-on {
+  display: block;
+  will-change: transform;
+}

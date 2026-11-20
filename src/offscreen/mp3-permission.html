@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InstHush · MP3</title>
+    <link rel="stylesheet" href="mp3-permission.css">
+    <script defer src="../lib/media.js"></script>
+    <script defer src="../lib/themes.js"></script>
+    <script defer src="mp3-permission.js"></script>
+  </head>
+  <body>
+    <main class="card" role="dialog" aria-labelledby="title" aria-describedby="desc">
+      <div class="head">
+        <img class="mark" src="../../assets/icon-32.png" width="24" height="24" alt="">
+        <h1 id="title"></h1>
+      </div>
+      <p id="desc" class="desc"></p>
+      <p id="hosts" class="hosts"></p>
+      <p id="status" class="status" role="status" aria-live="polite" hidden></p>
+      <div class="actions">
+        <button id="cancel" type="button" class="btn"></button>
+        <button id="allow" type="button" class="btn btn-accent"></button>
+      </div>
+    </main>
+  </body>
+</html>

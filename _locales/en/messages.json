@@ -1,0 +1,2842 @@
+{
+  "creditAuthor": {
+    "message": "Made by KSPIN"
+  },
+  "extName": {
+    "message": "InstHush",
+    "description": "Extension name shown in the Chrome toolbar and store."
+  },
+  "extDesc": {
+    "message": "Local ghost mode, video tools and ad filter for Instagram",
+    "description": "Extension description shown in the Chrome store and extensions page."
+  },
+  "popupTitle": {
+    "message": "InstHush",
+    "description": "Popup header title."
+  },
+  "popupLocal": {
+    "message": "Local only",
+    "description": "Small badge in the popup header."
+  },
+  "popupLocalChip": {
+    "message": "On this device",
+    "description": "Small chip in the popup header stating that data stays on the device."
+  },
+  "popupGhostMode": {
+    "message": "Ghost mode",
+    "description": "Heading of the ghost mode card."
+  },
+  "popupGhostOn": {
+    "message": "Ghost mode is on",
+    "description": "Status shown when ghost mode is enabled."
+  },
+  "popupGhostOff": {
+    "message": "Ghost mode is off",
+    "description": "Status shown when ghost mode is disabled."
+  },
+  "popupGhostEnableAll": {
+    "message": "Turn all on",
+    "description": "Ghost mode master button label to enable both ghost settings."
+  },
+  "popupGhostDisableAll": {
+    "message": "Turn all off",
+    "description": "Ghost mode master button label to disable all ghost settings."
+  },
+  "popupSettings": {
+    "message": "Settings",
+    "description": "Screen-reader heading for the settings section."
+  },
+  "popupVideo": {
+    "message": "Video controls",
+    "description": "Label of the video controls setting."
+  },
+  "popupVideoDesc": {
+    "message": "Speed, seek, loop and download.",
+    "description": "Description under the video controls setting."
+  },
+  "popupAds": {
+    "message": "Ad blocking",
+    "description": "Label of the ad blocking setting."
+  },
+  "popupAdsDesc": {
+    "message": "Hides feed, story and reels ads.",
+    "description": "Description under the ad blocking setting."
+  },
+  "popupGhostStory": {
+    "message": "Story ghost",
+    "description": "Label of the story ghost setting."
+  },
+  "popupGhostStoryDesc": {
+    "message": "Hides story view receipts.",
+    "description": "Description under the story ghost setting."
+  },
+  "popupGhostStoryShort": {
+    "message": "Seen is not sent",
+    "description": "Short description under the story ghost setting."
+  },
+  "popupGhostDm": {
+    "message": "DM ghost",
+    "description": "Label of the DM ghost setting."
+  },
+  "popupGhostDmDesc": {
+    "message": "Hides message read receipts.",
+    "description": "Description under the DM ghost setting."
+  },
+  "popupGhostDmShort": {
+    "message": "Read is not sent",
+    "description": "Short description under the DM ghost setting."
+  },
+  "popupActivity": {
+    "message": "Local counters",
+    "description": "Heading of the local counters section."
+  },
+  "popupLastDay": {
+    "message": "Status: last 24 hours",
+    "description": "Caption next to the local counters heading."
+  },
+  "popupStatsEmpty": {
+    "message": "Counters fill when you open Instagram",
+    "description": "Shown when the local counters have no events yet."
+  },
+  "popupAdsBlocked": {
+    "message": "Ads blocked",
+    "description": "Label of the blocked ads counter."
+  },
+  "popupStoriesHidden": {
+    "message": "Story views hidden",
+    "description": "Label of the hidden story views counter."
+  },
+  "popupDmsHidden": {
+    "message": "DM reads hidden",
+    "description": "Label of the hidden DM reads counter."
+  },
+  "popupActive": {
+    "message": "Working",
+    "description": "Status shown when a filter is active within the last 24 hours."
+  },
+  "popupWaiting": {
+    "message": "Waiting",
+    "description": "Status shown when a filter has not run yet."
+  },
+  "popupNoMatch": {
+    "message": "No match yet",
+    "description": "Status shown when a filter has not matched anything."
+  },
+  "popupLeak": {
+    "message": "Some DM read signals could not be hidden.",
+    "description": "Warning note under the counters when DM read signals leaked."
+  },
+  "popupShortcuts": {
+    "message": "Video shortcuts",
+    "description": "Heading of the keyboard shortcuts section."
+  },
+  "popupSpeed": {
+    "message": "Playback speed",
+    "description": "Shortcut row label for playback speed."
+  },
+  "popupSpeedKeys": {
+    "message": "Shift + . / Shift + ,",
+    "description": "Key combination shown for playback speed."
+  },
+  "popupSeek": {
+    "message": "Seek 5 seconds",
+    "description": "Shortcut row label for seeking."
+  },
+  "popupSeekKeys": {
+    "message": "← / →",
+    "description": "Key combination shown for seeking."
+  },
+  "popupLoop": {
+    "message": "Loop",
+    "description": "Shortcut row label for loop."
+  },
+  "popupLoopKey": {
+    "message": "L",
+    "description": "Key shown for loop."
+  },
+  "popupPip": {
+    "message": "Picture in picture",
+    "description": "Shortcut row label for picture in picture."
+  },
+  "popupPipKey": {
+    "message": "P",
+    "description": "Key shown for picture in picture."
+  },
+  "popupDownload": {
+    "message": "Download",
+    "description": "Shortcut row label for download."
+  },
+  "popupDownloadKey": {
+    "message": "D",
+    "description": "Key shown for download."
+  },
+  "popupIdm": {
+    "message": "IDM captures videos; for photos, add jpg/webp to IDM file types.",
+    "description": "Note about downloading with IDM."
+  },
+  "popupIdmShort": {
+    "message": "IDM: video ready · Add jpg/webp file types for photos.",
+    "description": "Short IDM note in the popup footer."
+  },
+  "popupStorageError": {
+    "message": "Could not load settings; reopen the popup.",
+    "description": "Error message when stored settings cannot be read."
+  },
+  "popupSaveError": {
+    "message": "Could not save the setting; try again.",
+    "description": "Error message when a setting cannot be saved."
+  },
+  "popupBackupExport": {
+    "message": "Export settings"
+  },
+  "popupBackupImport": {
+    "message": "Import settings"
+  },
+  "popupBackupExported": {
+    "message": "Settings backup download started."
+  },
+  "popupBackupImported": {
+    "message": "Settings imported."
+  },
+  "popupBackupTooBig": {
+    "message": "The backup exceeds the 256 KiB limit."
+  },
+  "popupBackupBadJson": {
+    "message": "The file is not valid JSON."
+  },
+  "popupBackupBadKind": {
+    "message": "This file is not an InstHush settings backup."
+  },
+  "popupBackupBadVersion": {
+    "message": "This backup version is not supported."
+  },
+  "popupBackupBadShape": {
+    "message": "The backup settings structure is invalid."
+  },
+  "popupBackupReadError": {
+    "message": "Could not read the backup file; try again."
+  },
+  "popupBackupExportError": {
+    "message": "Could not create the settings backup; try again."
+  },
+  "videoSpeed": {
+    "message": "Speed",
+    "description": "Accessible label of the playback speed button on the video bar."
+  },
+  "videoBack": {
+    "message": "5 seconds back",
+    "description": "Accessible label of the rewind button on the video bar."
+  },
+  "videoForward": {
+    "message": "5 seconds forward",
+    "description": "Accessible label of the forward button on the video bar."
+  },
+  "videoProgress": {
+    "message": "Progress",
+    "description": "Accessible label of the progress slider on the video bar."
+  },
+  "videoVolume": {
+    "message": "Volume",
+    "description": "Accessible label of the volume slider on the video bar."
+  },
+  "videoLoop": {
+    "message": "Loop",
+    "description": "Accessible label of the loop button on the video bar."
+  },
+  "videoPip": {
+    "message": "Picture in picture",
+    "description": "Accessible label of the picture in picture button."
+  },
+  "videoDownload": {
+    "message": "Download",
+    "description": "Accessible label of the download button on videos and photos."
+  },
+  "videoBar": {
+    "message": "Video controls",
+    "description": "Accessible name of the whole video control bar."
+  },
+  "toastDashOnly": {
+    "message": "This video is only available as an HD stream; this version can't download it.",
+    "description": "Toast shown when a video is only available as an HD stream."
+  },
+  "toastError": {
+    "message": "Download failed.",
+    "description": "Toast shown when a download fails."
+  },
+  "toastStarted": {
+    "message": "Download started.",
+    "description": "Toast shown when a download starts."
+  },
+  "dockTitle": {
+    "message": "InstHush · privacy controls",
+    "description": "Heading of the in-page privacy dock panel."
+  },
+  "dockFooter": {
+    "message": "InstHush · fully local",
+    "description": "Footer line of the in-page dock stating everything stays local."
+  },
+  "dockShowAll": {
+    "message": "Turn all off",
+    "description": "Dock button that turns all ghost switches off."
+  },
+  "dockHideAll": {
+    "message": "Turn all on",
+    "description": "Dock button that turns both ghost switches on."
+  },
+  "dockSessionStories": {
+    "message": "$1 story views hidden this session",
+    "description": "Dock counter of story views hidden this session; $1 is a number."
+  },
+  "dockGhostsOn": {
+    "message": "Story and DM ghost on",
+    "description": "Toast shown when both story and DM ghost are enabled."
+  },
+  "dockGhostsOff": {
+    "message": "Story and DM ghost off",
+    "description": "Toast shown when both story and DM ghost are disabled."
+  },
+  "dockHiddenViewing": {
+    "message": "Hidden viewing",
+    "description": "Pill shown while stories are being watched hidden."
+  },
+  "dockHiddenReading": {
+    "message": "Hidden reading",
+    "description": "Pill shown while DMs are being read hidden."
+  },
+  "dockLoadError": {
+    "message": "Could not load settings; refresh the page.",
+    "description": "Error shown in the dock when settings cannot be read."
+  },
+  "dockAvatarDownload": {
+    "message": "Download profile photo"
+  },
+  "tipAvatarDownload": {
+    "message": "Saves the current profile's highest-resolution available profile photo to your device."
+  },
+  "avatarDownloadBtn": {
+    "message": "Download full-size profile photo"
+  },
+  "toastAvatarError": {
+    "message": "Could not download profile photo."
+  },
+  "videoPlay": {
+    "message": "Play",
+    "description": "Video bar button label to start playback."
+  },
+  "videoPause": {
+    "message": "Pause",
+    "description": "Video bar button label to pause playback."
+  },
+  "videoMute": {
+    "message": "Mute",
+    "description": "Video bar button label to mute the video."
+  },
+  "videoUnmute": {
+    "message": "Unmute",
+    "description": "Video bar button label to unmute the video."
+  },
+  "pillBack": {
+    "message": "−5 s",
+    "description": "Pill label for seeking back five seconds."
+  },
+  "pillForward": {
+    "message": "+5 s",
+    "description": "Pill label for seeking forward five seconds."
+  },
+  "pillLoopOn": {
+    "message": "Loop on",
+    "description": "Pill label shown when loop is enabled."
+  },
+  "pillLoopOff": {
+    "message": "Loop off",
+    "description": "Pill label shown when loop is disabled."
+  },
+  "pillPipOn": {
+    "message": "PiP on",
+    "description": "Pill label shown when picture in picture is enabled."
+  },
+  "pillPipOff": {
+    "message": "PiP off",
+    "description": "Pill label shown when picture in picture is disabled."
+  },
+  "pillMuted": {
+    "message": "Muted",
+    "description": "Pill label shown when the video is muted."
+  },
+  "pillSound": {
+    "message": "Sound on",
+    "description": "Pill label shown when the video has sound."
+  },
+  "pillPlaying": {
+    "message": "Playing",
+    "description": "Pill label shown while the video is playing."
+  },
+  "pillPaused": {
+    "message": "Paused",
+    "description": "Pill label shown while the video is paused."
+  },
+  "popupCommentCopy": {
+    "message": "Comment copy",
+    "description": "Label of the comment copy setting."
+  },
+  "popupCommentCopyDesc": {
+    "message": "Adds a one-click Copy action under comments.",
+    "description": "Description under the comment copy setting."
+  },
+  "followsBadge": {
+    "message": "Follows you"
+  },
+  "popupFollowsBadge": {
+    "message": "Follows-you badge",
+    "description": "Label of the follows-you badge setting."
+  },
+  "popupFollowsBadgeDesc": {
+    "message": "Shows a small badge on profiles of people who follow you.",
+    "description": "Description under the follows-you badge setting."
+  },
+  "popupTheme": {
+    "message": "Theme",
+    "description": "Heading of the theme setting."
+  },
+  "themeGreen": {
+    "message": "Green",
+    "description": "Name of the green theme."
+  },
+  "themeBlack": {
+    "message": "Black",
+    "description": "Name of the black theme."
+  },
+  "themeWhite": {
+    "message": "White",
+    "description": "Name of the white theme."
+  },
+  "themePink": {
+    "message": "Pink",
+    "description": "Name of the pink theme."
+  },
+  "themePurple": {
+    "message": "Purple",
+    "description": "Name of the purple theme."
+  },
+  "themeOcean": {
+    "message": "Ocean",
+    "description": "Name of the ocean theme."
+  },
+  "infoMore": {
+    "message": "Info",
+    "description": "Accessible name of an info button."
+  },
+  "tipGhostStory": {
+    "message": "When you watch stories, the other person won't see a 'seen' receipt. Works only in this browser.",
+    "description": "Explanation of story ghost mode."
+  },
+  "tipGhostDm": {
+    "message": "Reading messages won't send a 'seen' receipt. If you start typing, Instagram may still show that.",
+    "description": "Explanation of DM ghost mode."
+  },
+  "tipVideo": {
+    "message": "Adds speed, seek, volume, loop and download controls to videos. Does not download live streams or DRM-protected streams.",
+    "description": "Explanation of the video controls."
+  },
+  "tipAds": {
+    "message": "Hides sponsored posts in feed, stories and Reels. Does not affect regular posts from accounts you follow.",
+    "description": "Explanation of the ad filter."
+  },
+  "tipCommentCopy": {
+    "message": "Adds a one-click 'Copy' button under each comment to copy its text. Does not notify the comment author.",
+    "description": "Explanation of comment copy."
+  },
+  "tipTheme": {
+    "message": "Changes the color theme of the dock, popup and video bar. Does not alter Instagram's own interface colors.",
+    "description": "Explanation of the theme setting."
+  },
+  "videoDownloadHint": {
+    "message": "Download (Shift: all)",
+    "description": "Hint on the video download button."
+  },
+  "videoVolumeHint": {
+    "message": "Volume (wheel, ↑/↓)",
+    "description": "Hint on the volume control."
+  },
+  "pillVolume": {
+    "message": "Volume $1%",
+    "description": "Pill label for the volume level."
+  },
+  "toastStartedAll": {
+    "message": "Downloading $1 files.",
+    "description": "Toast shown when a carousel download starts."
+  },
+  "toastSkipped": {
+    "message": "$1 skipped.",
+    "description": "Toast shown when some carousel items are skipped."
+  },
+  "videoMore": {
+    "message": "More tools",
+    "description": "Accessible label of the tools menu button."
+  },
+  "toolZoomIn": {
+    "message": "Zoom in",
+    "description": "Tools menu label for zoom in."
+  },
+  "toolZoomOut": {
+    "message": "Zoom out",
+    "description": "Tools menu label for zoom out."
+  },
+  "toolRotate": {
+    "message": "Rotate",
+    "description": "Tools menu label for rotate."
+  },
+  "toolFill": {
+    "message": "Fill / fit",
+    "description": "Tools menu label for fill or fit."
+  },
+  "toolAb": {
+    "message": "A–B loop",
+    "description": "Tools menu label for the A-B loop."
+  },
+  "toolFullscreen": {
+    "message": "Fullscreen",
+    "description": "Tools menu label for fullscreen."
+  },
+  "toolReset": {
+    "message": "Reset view",
+    "description": "Tools menu label for resetting the view."
+  },
+  "toolDownloadAll": {
+    "message": "Download all",
+    "description": "Tools menu label for downloading every carousel item."
+  },
+  "pillViewReset": {
+    "message": "View reset",
+    "description": "Pill label shown when the view is reset."
+  },
+  "pillFill": {
+    "message": "Fill",
+    "description": "Pill label shown when fill mode is on."
+  },
+  "pillFit": {
+    "message": "Fit",
+    "description": "Pill label shown when fit mode is on."
+  },
+  "pillAbOff": {
+    "message": "A–B off",
+    "description": "Pill label shown when the A-B loop is cleared."
+  },
+  "pillFrameBack": {
+    "message": "−1 frame",
+    "description": "Pill label for the previous frame."
+  },
+  "pillFrameForward": {
+    "message": "+1 frame",
+    "description": "Pill label for the next frame."
+  },
+  "scVolume": {
+    "message": "Volume",
+    "description": "Shortcut row label for volume."
+  },
+  "scVolumeKeys": {
+    "message": "↑ / ↓",
+    "description": "Keys shown for volume."
+  },
+  "scZoom": {
+    "message": "Zoom in / out",
+    "description": "Shortcut row label for zoom."
+  },
+  "scZoomKeys": {
+    "message": "Z / Shift+Z",
+    "description": "Keys shown for zoom."
+  },
+  "scReset": {
+    "message": "Reset view",
+    "description": "Shortcut row label for resetting the view."
+  },
+  "scResetKey": {
+    "message": "0",
+    "description": "Key shown for resetting the view."
+  },
+  "scRotate": {
+    "message": "Rotate",
+    "description": "Shortcut row label for rotate."
+  },
+  "scRotateKey": {
+    "message": "R",
+    "description": "Key shown for rotate."
+  },
+  "scFill": {
+    "message": "Fill / fit",
+    "description": "Shortcut row label for fill or fit."
+  },
+  "scFillKey": {
+    "message": "C",
+    "description": "Key shown for fill or fit."
+  },
+  "scAb": {
+    "message": "A–B loop",
+    "description": "Shortcut row label for the A-B loop."
+  },
+  "scAbKey": {
+    "message": "A",
+    "description": "Key shown for the A-B loop."
+  },
+  "scFullscreen": {
+    "message": "Fullscreen",
+    "description": "Shortcut row label for fullscreen."
+  },
+  "scFullscreenKey": {
+    "message": "F",
+    "description": "Key shown for fullscreen."
+  },
+  "scHold": {
+    "message": "Hold for 2×",
+    "description": "Shortcut row label for holding 2x speed."
+  },
+  "scHoldKey": {
+    "message": "S",
+    "description": "Key shown for holding 2x speed."
+  },
+  "scFrame": {
+    "message": "Frame by frame",
+    "description": "Shortcut row label for frame step."
+  },
+  "scFrameKeys": {
+    "message": ", / .",
+    "description": "Keys shown for frame step."
+  },
+  "scDownloadAll": {
+    "message": "Download all",
+    "description": "Shortcut row label for downloading every carousel item."
+  },
+  "scDownloadAllKey": {
+    "message": "Shift+D",
+    "description": "Key shown for downloading every carousel item."
+  },
+  "commentCopy": {
+    "message": "Copy",
+    "description": "Label of the comment copy button."
+  },
+  "commentCopied": {
+    "message": "Copied",
+    "description": "Label shown after a comment is copied."
+  },
+  "popupAutoAdvance": {
+    "message": "Reels auto-advance"
+  },
+  "popupAutoAdvanceDesc": {
+    "message": "Moves to the next reel when playback ends."
+  },
+  "tipAutoAdvance": {
+    "message": "Only on Reels pages. Pauses while a key or button is held, a menu or A–B loop is active, or the tab is hidden."
+  },
+  "popupFocus": {
+    "message": "Focus mode"
+  },
+  "popupFocusDesc": {
+    "message": "Choose what to hide."
+  },
+  "tipFocus": {
+    "message": "Choose independently which counts, suggestions and navigation links to hide."
+  },
+  "videoCapture": {
+    "message": "Save frame as PNG"
+  },
+  "scCaptureKey": {
+    "message": "Shift + X"
+  },
+  "toastCaptureBlocked": {
+    "message": "This video frame cannot be saved because of browser cross-origin security."
+  },
+  "toastCaptureError": {
+    "message": "Could not save the video frame."
+  },
+  "popupKeys": {
+    "message": "Keyboard shortcuts (J/K, ?)"
+  },
+  "popupKeysDesc": {
+    "message": "Navigate posts and view shortcut help."
+  },
+  "tipKeys": {
+    "message": "Enables J/K post navigation and ? help. Video and dock shortcuts keep their own settings."
+  },
+  "keysTitle": {
+    "message": "InstHush keyboard shortcuts"
+  },
+  "keysPosts": {
+    "message": "Next / previous post"
+  },
+  "keysHelp": {
+    "message": "Toggle shortcut help"
+  },
+  "keysDownloadPost": {
+    "message": "Download current post / visible slide"
+  },
+  "keysDownloadPostAll": {
+    "message": "Download all slides of current post"
+  },
+  "keysDock": {
+    "message": "Toggle dock panel"
+  },
+  "keysGhosts": {
+    "message": "Toggle both ghost settings"
+  },
+  "keysMute": {
+    "message": "Mute / unmute"
+  },
+  "keysClose": {
+    "message": "Close"
+  },
+  "keysContext": {
+    "message": "Video shortcuts act on the active video; volume arrows require the pointer over the video or bar, outside Reels. Tool availability depends on the browser."
+  },
+  "popupStoryPause": {
+    "message": "Pause stories on open"
+  },
+  "popupStoryPauseDesc": {
+    "message": "Stories wait for you instead of playing on."
+  },
+  "tipStoryPause": {
+    "message": "Presses Instagram's own pause button once per story item. If you press play first, it leaves that item alone. Off by default."
+  },
+  "popupNoAutoplay": {
+    "message": "No autoplay"
+  },
+  "popupNoAutoplayDesc": {
+    "message": "Feed and profile videos wait for you to press play."
+  },
+  "tipNoAutoplay": {
+    "message": "Pauses a video that Instagram starts by itself, once, and shows the bar so you can press play. Your own play is never undone. Reels, stories and messages are not affected. Off by default."
+  },
+  "popupHoverZoom": {
+    "message": "Hover preview"
+  },
+  "popupHoverZoomDesc": {
+    "message": "Rest the pointer on a grid thumbnail to see it larger."
+  },
+  "tipHoverZoom": {
+    "message": "On profile, explore, saved, tagged and search grids, hovering a thumbnail for a moment shows a larger copy beside the pointer. It reuses the image Instagram already loaded, adds no requests of its own, and hides when you move away, scroll or press Esc. Carousels and videos show their cover with a small label. Not used on the feed, reels, stories or messages. Off by default."
+  },
+  "hoverZoomBadgeVideo": {
+    "message": "Video"
+  },
+  "hoverZoomBadgeCarousel": {
+    "message": "Carousel"
+  },
+  "timerBreakToast": {
+    "message": "You have been on Instagram for $COUNT$ minutes. Consider a short break.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "timerBreakDismiss": {
+    "message": "Dismiss"
+  },
+  "popupTimer": {
+    "message": "Time on Instagram"
+  },
+  "timerRowValue": {
+    "message": "Today $1 · 7 days $2"
+  },
+  "timerUnitHour": {
+    "message": "h"
+  },
+  "timerUnitMin": {
+    "message": "min"
+  },
+  "popupBreakReminder": {
+    "message": "Break reminder"
+  },
+  "popupBreakOff": {
+    "message": "Off"
+  },
+  "popupBreakMins": {
+    "message": "$1 min"
+  },
+  "tipTimer": {
+    "message": "Counts your active time on Instagram on this device only. Counted while the tab is visible, the window is focused and you interacted in the last 60 seconds. Data never leaves the device."
+  },
+  "tipBreak": {
+    "message": "Shows a small notice after the chosen amount of continuous use. A 5 minute pause resets the count."
+  },
+  "popupFocusCounts": {
+    "message": "Hide like/view counts"
+  },
+  "popupFocusCountsDesc": {
+    "message": "Hides identifiable like and view counts."
+  },
+  "tipFocusCounts": {
+    "message": "Hides identifiable like and view counts."
+  },
+  "popupFocusSuggested": {
+    "message": "Hide suggestions"
+  },
+  "popupFocusSuggestedDesc": {
+    "message": "Hides suggestion sections and identifiable non-followed feed posts."
+  },
+  "tipFocusSuggested": {
+    "message": "Hides suggestion sections and identifiable non-followed feed posts."
+  },
+  "popupFocusReelsNav": {
+    "message": "Hide Reels navigation"
+  },
+  "popupFocusReelsNavDesc": {
+    "message": "Hides Reels links in navigation."
+  },
+  "tipFocusReelsNav": {
+    "message": "Hides Reels links in navigation."
+  },
+  "popupFocusExploreNav": {
+    "message": "Hide Explore navigation"
+  },
+  "popupFocusExploreNavDesc": {
+    "message": "Hides Explore links in navigation."
+  },
+  "tipFocusExploreNav": {
+    "message": "Hides Explore links in navigation."
+  },
+  "popupFocusThreads": {
+    "message": "Hide Threads links"
+  },
+  "popupFocusMetaAi": {
+    "message": "Hide Meta AI"
+  },
+  "popupFocusMetaAiDesc": {
+    "message": "Hides Meta AI entry points in search and DMs."
+  },
+  "tipFocusMetaAi": {
+    "message": "Hides Meta AI entry points in search and DMs."
+  },
+  "popupFocusThreadsDesc": {
+    "message": "Hides links and linked promotions for Threads."
+  },
+  "tipFocusThreads": {
+    "message": "Hides links and linked promotions for Threads."
+  },
+  "popupDefaultSpeed": {
+    "message": "Default speed"
+  },
+  "popupDefaultSpeedDesc": {
+    "message": "Starting speed for new videos."
+  },
+  "tipDefaultSpeed": {
+    "message": "New feed, reel, profile and post videos start at this speed. A speed you pick with Shift+. / Shift+, or the menu wins for that video. Stories, messages and calls keep your last chosen speed. 1x keeps the old behaviour: your last chosen speed applies everywhere."
+  },
+  "dockMore": {
+    "message": "More"
+  },
+  "dmReadButton": {
+    "message": "Mark as read"
+  },
+  "dmReadWaiting": {
+    "message": "Waiting for activity"
+  },
+  "dmReadTip": {
+    "message": "Let the next read receipt for this chat through"
+  },
+  "dmReadToast": {
+    "message": "Will be marked read on next activity"
+  },
+  "dmReadDone": {
+    "message": "Marked as read"
+  },
+  "dmReadExpired": {
+    "message": "Not marked. Press again, then click or scroll in the chat."
+  },
+  "dmReadFail": {
+    "message": "Not ready yet. Try again in a moment."
+  },
+  "muteTitle": {
+    "message": "Muted"
+  },
+  "muteWords": {
+    "message": "Words"
+  },
+  "muteAccounts": {
+    "message": "Accounts"
+  },
+  "muteAdd": {
+    "message": "Add"
+  },
+  "muteRemove": {
+    "message": "Remove"
+  },
+  "muteInvalid": {
+    "message": "Use a new word (1-50 characters) or a valid Instagram username. Limit: 100 per list."
+  },
+  "muteWordsPlaceholder": {
+    "message": "word or #tag"
+  },
+  "muteAccountsPlaceholder": {
+    "message": "username"
+  },
+  "popupExactDates": {
+    "message": "Show exact dates"
+  },
+  "popupExactDatesDesc": {
+    "message": "Show the exact date and time on posts and comments."
+  },
+  "tipExactDates": {
+    "message": "Show the exact date and time on posts and comments."
+  },
+  "popupFollowingFeed": {
+    "message": "Open feed with 'Following'"
+  },
+  "popupFollowingFeedDesc": {
+    "message": "Home opens with a chronological feed of accounts you follow."
+  },
+  "tipFollowingFeed": {
+    "message": "Opens home and Home links with the Following feed. An explicit feed choice is respected for this page session. Off by default."
+  },
+  "popupCleanLinks": {
+    "message": "Clean share links"
+  },
+  "popupCleanLinksDesc": {
+    "message": "Strips tracking parameters (igsh, utm) from copied links and the address bar."
+  },
+  "tipCleanLinks": {
+    "message": "Removes igsh, igshid, ig_rid, utm_*, fbclid and ref=share tracking parameters from copied instagram.com and instagr.am links and the address bar. Makes no network requests. On by default."
+  },
+  "opBadge": {
+    "message": "Author"
+  },
+  "popupOpBadge": {
+    "message": "Post author badge"
+  },
+  "popupOpBadgeDesc": {
+    "message": "Adds a small Author badge to the post owner's replies in comments."
+  },
+  "tipOpBadge": {
+    "message": "Adds a small Author badge to the post owner's replies in comments."
+  },
+  "tipFollowsBadge": {
+    "message": "Shows the follow status beside the username on a profile: mutual, follows you, doesn't follow you or not following. When it is unknown, clicking the badge sends one request to Instagram."
+  },
+  "dockKeys": {
+    "message": "Keyboard shortcuts"
+  },
+  "dockNoAutoplay": {
+    "message": "No autoplay"
+  },
+  "dockGroupPlayback": {
+    "message": "Playback"
+  },
+  "dockGroupFeed": {
+    "message": "Feed & tools"
+  },
+  "dockGroupTime": {
+    "message": "Time & breaks"
+  },
+  "popupFocusNoReels": {
+    "message": "Hide Reels in the feed"
+  },
+  "popupFocusNoReelsDesc": {
+    "message": "Hides Reels posts in the home feed."
+  },
+  "tipFocusNoReels": {
+    "message": "Hides Reels posts in the home feed."
+  },
+  "dockStoryPause": {
+    "message": "Pause stories on open"
+  },
+  "popupGhostTyping": {
+    "message": "Hide typing…"
+  },
+  "popupGhostTypingDesc": {
+    "message": "No 'typing' shown in DMs"
+  },
+  "tipGhostTyping": {
+    "message": "The other person won't see the 'typing' indicator while you write in DMs."
+  },
+  "popupSeenPosts": {
+    "message": "Dim seen posts"
+  },
+  "popupSeenPostsDesc": {
+    "message": "Dims posts you saw in earlier feed sessions; hover to show them clearly. The list stays on this device only."
+  },
+  "tipSeenPosts": {
+    "message": "Dims home feed posts you looked at for at least 1.5 seconds on earlier visits; hover to show them clearly. The list stays on this device only and keeps at most 3000 posts. Clear deletes it."
+  },
+  "seenPostsClear": {
+    "message": "Clear"
+  },
+  "seenPostsClearLabel": {
+    "message": "Clear the seen posts list"
+  },
+  "seenPostsCleared": {
+    "message": "Seen posts list cleared."
+  },
+  "favoritesTitle": {
+    "message": "Favorites"
+  },
+  "favoritesAdd": {
+    "message": "Add to favorites"
+  },
+  "favoritesRemove": {
+    "message": "Remove from favorites"
+  },
+  "favoritesEmpty": {
+    "message": "No favorites yet. Press the star on a profile."
+  },
+  "favoritesDescription": {
+    "message": "Accounts you visit often; the list is stored only on this device."
+  },
+  "tipFavorites": {
+    "message": "Keeps up to 50 accounts you visit often in a list on this device. On a profile, add or remove it with the star in the panel. Does not change Instagram's own Favorites feed."
+  },
+  "setCatPrivacy": {
+    "message": "Privacy"
+  },
+  "setCatFeed": {
+    "message": "Feed"
+  },
+  "setCatVideo": {
+    "message": "Video"
+  },
+  "setCatDownloads": {
+    "message": "Downloads"
+  },
+  "setCatProfile": {
+    "message": "Profile and stories"
+  },
+  "setCatFocus": {
+    "message": "Focus"
+  },
+  "setCatAppearance": {
+    "message": "Appearance"
+  },
+  "setCatTools": {
+    "message": "Tools"
+  },
+  "setGroupGhost": {
+    "message": "Ghost mode"
+  },
+  "setGroupLinks": {
+    "message": "Links"
+  },
+  "setGroupCleanup": {
+    "message": "Feed cleanup"
+  },
+  "setGroupNavigation": {
+    "message": "Navigation"
+  },
+  "setGroupFeed": {
+    "message": "Feed preferences"
+  },
+  "setGroupPlayer": {
+    "message": "Player"
+  },
+  "setGroupReels": {
+    "message": "Reels"
+  },
+  "setGroupStories": {
+    "message": "Stories"
+  },
+  "setGroupToolbar": {
+    "message": "Media actions"
+  },
+  "setGroupFiles": {
+    "message": "Files"
+  },
+  "setGroupExtras": {
+    "message": "More downloads"
+  },
+  "setGroupBulk": {
+    "message": "Bulk downloads"
+  },
+  "setGroupProfile": {
+    "message": "Profile"
+  },
+  "setGroupFocus": {
+    "message": "Focus mode"
+  },
+  "setGroupLimit": {
+    "message": "Daily limit"
+  },
+  "setGroupTime": {
+    "message": "Time and breaks"
+  },
+  "setGroupLook": {
+    "message": "Colour and motion"
+  },
+  "setGroupInfo": {
+    "message": "Posts and comments"
+  },
+  "setGroupKeys": {
+    "message": "Keyboard"
+  },
+  "setGroupData": {
+    "message": "Data and sync"
+  },
+  "setGroupRisky": {
+    "message": "Risky features"
+  },
+  "setGhostMode": {
+    "message": "Ghost mode"
+  },
+  "setGhostModeDesc": {
+    "message": "Turn story view receipts, DM read receipts and the typing indicator on or off together."
+  },
+  "setGhostAllOn": {
+    "message": "Turn all on"
+  },
+  "setGhostAllOff": {
+    "message": "Turn all off"
+  },
+  "setGhostStory": {
+    "message": "Story ghost"
+  },
+  "setGhostStoryDesc": {
+    "message": "Hide the view receipt when you watch a story."
+  },
+  "setGhostDm": {
+    "message": "DM ghost"
+  },
+  "setGhostDmDesc": {
+    "message": "Hide read receipts when you read a chat."
+  },
+  "setGhostTyping": {
+    "message": "Hide typing"
+  },
+  "setGhostTypingDesc": {
+    "message": "Hide the typing indicator in DMs."
+  },
+  "setMarkRead": {
+    "message": "Mark as read"
+  },
+  "setMarkReadDesc": {
+    "message": "Allow the next read receipt for this chat."
+  },
+  "setCleanLinks": {
+    "message": "Clean share links"
+  },
+  "setCleanLinksDesc": {
+    "message": "Strip tracking parameters from copied links and the address bar."
+  },
+  "setShareDomain": {
+    "message": "Share domain"
+  },
+  "setShareDomainDesc": {
+    "message": "Use your chosen domain in copied Instagram share links."
+  },
+  "tipShareDomain": {
+    "message": "Replaces instagram.com with your chosen domain (for example kkinstagram.com) in copied post, reel and story share links. Does not change the address bar. Off when left empty."
+  },
+  "setDirectLinks": {
+    "message": "Direct links"
+  },
+  "setDirectLinksDesc": {
+    "message": "Open external links without the l.instagram.com redirect. Also skips Instagram’s harmful-link warning."
+  },
+  "tipDirectLinks": {
+    "message": "Unwraps l.instagram.com redirect links directly to their target address. Note: this also skips Instagram’s harmful or suspicious link warning. Off by default."
+  },
+  "setBlockAnalytics": {
+    "message": "Block analytics"
+  },
+  "setBlockAnalyticsDesc": {
+    "message": "Block recognized Instagram usage analytics requests."
+  },
+  "tipBlockAnalytics": {
+    "message": "Blocks Instagram’s known usage analytics and logging requests (/ajax/bz, /ajax/qm/, /logging/, logging_client_events) locally in the page. Requires no extra permissions. Off by default."
+  },
+  "setAds": {
+    "message": "Block ads"
+  },
+  "setAdsDesc": {
+    "message": "Hide sponsored items in the feed, stories and Reels."
+  },
+  "setSuggested": {
+    "message": "Hide suggested posts"
+  },
+  "setSuggestedDesc": {
+    "message": "Hide recommended posts and suggestion sections in the home feed."
+  },
+  "setSuggestedAccounts": {
+    "message": "Hide suggested accounts"
+  },
+  "setSuggestedAccountsDesc": {
+    "message": "Hide account recommendations in the sidebar."
+  },
+  "setNoReels": {
+    "message": "Hide feed reels"
+  },
+  "setNoReelsDesc": {
+    "message": "Remove reel posts from Home."
+  },
+  "setStoryTray": {
+    "message": "Hide story tray"
+  },
+  "setStoryTrayDesc": {
+    "message": "Hide the row of stories at the top of Home."
+  },
+  "setReelsNav": {
+    "message": "Hide Reels tab"
+  },
+  "setReelsNavDesc": {
+    "message": "Hide the Reels navigation link."
+  },
+  "setExploreNav": {
+    "message": "Hide Explore tab"
+  },
+  "setExploreNavDesc": {
+    "message": "Hide the Explore navigation link."
+  },
+  "setThreads": {
+    "message": "Hide Threads links"
+  },
+  "setThreadsDesc": {
+    "message": "Hide Threads links in Instagram navigation."
+  },
+  "setMetaAi": {
+    "message": "Hide Meta AI"
+  },
+  "setMetaAiDesc": {
+    "message": "Hide Meta AI entry points in search and DMs."
+  },
+  "setFollowingFeed": {
+    "message": "Following feed"
+  },
+  "setFollowingFeedDesc": {
+    "message": "Open Home on the Following feed."
+  },
+  "setNoDoubleTap": {
+    "message": "Disable double-click likes"
+  },
+  "setNoDoubleTapDesc": {
+    "message": "Prevent double-clicks on media from sending likes."
+  },
+  "setSeenPosts": {
+    "message": "Dim seen posts"
+  },
+  "setSeenPostsDesc": {
+    "message": "Dim previously seen posts and restore them on hover."
+  },
+  "setMute": {
+    "message": "Muted words and accounts"
+  },
+  "setMuteDesc": {
+    "message": "Hide feed posts matching your words or accounts."
+  },
+  "setVideo": {
+    "message": "Video controls"
+  },
+  "setVideoDesc": {
+    "message": "Play, seek, adjust speed and volume, loop, or watch in picture-in-picture."
+  },
+  "setDefaultSpeed": {
+    "message": "Default speed"
+  },
+  "setDefaultSpeedDesc": {
+    "message": "Choose the starting speed for new feed and profile videos."
+  },
+  "setAutoAdvance": {
+    "message": "Advance to next reel"
+  },
+  "setAutoAdvanceDesc": {
+    "message": "Move to the next reel when playback ends."
+  },
+  "setNoAutoplay": {
+    "message": "Stop autoplay"
+  },
+  "setNoAutoplayDesc": {
+    "message": "Wait for you to start feed and profile videos."
+  },
+  "setStoryPause": {
+    "message": "Pause stories on open"
+  },
+  "setStoryPauseDesc": {
+    "message": "Pause each story when it opens."
+  },
+  "setStoryNoAdvance": {
+    "message": "Stop at story end"
+  },
+  "setStoryNoAdvanceDesc": {
+    "message": "Wait for you before advancing to the next story."
+  },
+  "setSpeed": {
+    "message": "Last playback speed"
+  },
+  "setSpeedDesc": {
+    "message": "The speed you last chose on the video bar or with Shift+. / Shift+,."
+  },
+  "setRememberSound": {
+    "message": "Remember sound"
+  },
+  "setRememberSoundDesc": {
+    "message": "Remember the last volume and mute state for videos."
+  },
+  "setVolume": {
+    "message": "Remembered volume"
+  },
+  "setVolumeDesc": {
+    "message": "The volume you last chose on the video bar."
+  },
+  "setMuted": {
+    "message": "Remembered mute"
+  },
+  "setMutedDesc": {
+    "message": "Whether videos start muted or with sound."
+  },
+  "setOneClickDownload": { "message": "One-click download" },
+  "setOneClickDownloadDesc": { "message": "Download the current item when you press the player’s download button." },
+  "playerDownloadItem": { "message": "Download this item" },
+  "playerDownloadAll": { "message": "Download all" },
+  "playerCopyLink": { "message": "Copy link" },
+  "setMediaToolbar": {
+    "message": "Media toolbar"
+  },
+  "setMediaToolbarDesc": {
+    "message": "Show media actions on hover or keyboard focus."
+  },
+  "setDownloadItem": {
+    "message": "Download item"
+  },
+  "setDownloadItemDesc": {
+    "message": "Save the selected photo or video."
+  },
+  "setDownloadAll": {
+    "message": "Download all"
+  },
+  "setDownloadAllDesc": {
+    "message": "Save the carousel, story sequence or highlight."
+  },
+  "setViewFullSize": {
+    "message": "View full size"
+  },
+  "setViewFullSizeDesc": {
+    "message": "View original dimensions, zoom with the wheel and drag to pan."
+  },
+  "setCopyMediaUrl": {
+    "message": "Copy media URL"
+  },
+  "setCopyMediaUrlDesc": {
+    "message": "Copy the selected file’s URL."
+  },
+  "setCopyCaption": {
+    "message": "Copy caption"
+  },
+  "setCopyCaptionDesc": {
+    "message": "Copy the post caption to the clipboard."
+  },
+  "setFilenameTemplate": {
+    "message": "Filename template"
+  },
+  "setFilenameTemplateDesc": {
+    "message": "Customize folder and file names with a sample preview."
+  },
+  "setDownloadFormat": {
+    "message": "Download format"
+  },
+  "setDownloadFormatDesc": {
+    "message": "Save sets as a ZIP archive or individual files."
+  },
+  "setContextMenu": {
+    "message": "Right-click download"
+  },
+  "setContextMenuDesc": {
+    "message": "Download Instagram media from the browser context menu."
+  },
+  "setVoiceDownload": {
+    "message": "Download voice message"
+  },
+  "setVoiceDownloadDesc": {
+    "message": "Save a selected voice message from a DM."
+  },
+  "setCommentGif": {
+    "message": "Save comment GIF"
+  },
+  "setCommentGifDesc": {
+    "message": "Add a save button beside a GIF in a comment."
+  },
+  "setAudioMp3": {
+    "message": "Save audio as MP3"
+  },
+  "setAudioMp3Desc": {
+    "message": "Convert the selected video’s audio to an MP3 file."
+  },
+  "setBulkProfile": {
+    "message": "Download profile posts"
+  },
+  "setBulkProfileDesc": {
+    "message": "Download the latest N posts with pauses or save a CSV listing."
+  },
+  "setBulkSaved": {
+    "message": "Download saved posts"
+  },
+  "setBulkSavedDesc": {
+    "message": "Export media or a CSV from saved posts or a collection."
+  },
+  "setHdAvatar": {
+    "message": "HD profile picture"
+  },
+  "setHdAvatarDesc": {
+    "message": "On a profile, download the largest profile photo from the dock row or the button on the photo."
+  },
+  "setFollowsBadge": {
+    "message": "Follow status badge"
+  },
+  "setFollowsBadgeDesc": {
+    "message": "Show whether you follow each other on a profile."
+  },
+  "setStoryDetails": {
+    "message": "Story details"
+  },
+  "setStoryDetailsDesc": {
+    "message": "Show tags, mentions, stickers, music and links in the story."
+  },
+  "setFavorites": {
+    "message": "Favorites"
+  },
+  "setFavoritesDesc": {
+    "message": "Keep frequently visited profiles in a list on this device."
+  },
+  "setHoverZoom": {
+    "message": "Hover preview"
+  },
+  "setHoverZoomDesc": {
+    "message": "Enlarge a grid thumbnail when you hover over it."
+  },
+  "setFocusMode": {
+    "message": "Focus mode"
+  },
+  "setFocusModeDesc": {
+    "message": "Choose which distractions to hide."
+  },
+  "setCounts": {
+    "message": "Hide engagement counts"
+  },
+  "setCountsDesc": {
+    "message": "Hide like counts and other supported engagement totals."
+  },
+  "setDailyLimit": {
+    "message": "Daily time limit"
+  },
+  "setDailyLimitDesc": {
+    "message": "Set a shared daily allowance for Reels and Explore."
+  },
+  "setTimeRemaining": {
+    "message": "Time remaining"
+  },
+  "setTimeRemainingDesc": {
+    "message": "Show how much of today’s allowance remains."
+  },
+  "setGrayscale": {
+    "message": "Grayscale"
+  },
+  "setGrayscaleDesc": {
+    "message": "Show Reels and Explore in grayscale always or when time runs out."
+  },
+  "setReelCounter": {
+    "message": "Reel counter"
+  },
+  "setReelCounterDesc": {
+    "message": "Count the distinct reels you watched today."
+  },
+  "setUsage": {
+    "message": "Time on Instagram"
+  },
+  "setUsageDesc": {
+    "message": "See active use on this device today and over the last seven days."
+  },
+  "setBreakMins": {
+    "message": "Break reminder"
+  },
+  "setBreakMinsDesc": {
+    "message": "Remind you to take a break after continuous use."
+  },
+  "setTheme": {
+    "message": "Theme"
+  },
+  "setThemeDesc": {
+    "message": "Choose one of six palettes for InstHush panels and media controls."
+  },
+  "setAnimations": {
+    "message": "Animations"
+  },
+  "setAnimationsDesc": {
+    "message": "Animate transitions and the ghost shimmer when system preferences allow."
+  },
+  "setExactDates": {
+    "message": "Show exact dates"
+  },
+  "setExactDatesDesc": {
+    "message": "Show the date and time on posts and comments."
+  },
+  "setOpBadge": {
+    "message": "Author badge"
+  },
+  "setOpBadgeDesc": {
+    "message": "Label replies from the post author in comments."
+  },
+  "setCommentCopy": {
+    "message": "Copy comments"
+  },
+  "setCommentCopyDesc": {
+    "message": "Add a copy button beneath comments."
+  },
+  "setKeys": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeysDesc": {
+    "message": "Move between posts with J/K and open shortcut help with ?."
+  },
+  "setShortcuts": {
+    "message": "Shortcut list"
+  },
+  "setShortcutsDesc": {
+    "message": "See what each shortcut does and where it works."
+  },
+  "setBackup": {
+    "message": "Settings backup"
+  },
+  "setBackupDesc": {
+    "message": "Export your settings to JSON or restore a backup."
+  },
+  "setReset": {
+    "message": "Reset settings"
+  },
+  "setResetDesc": {
+    "message": "Restore fresh-install preference values."
+  },
+  "setHealthCheck": {
+    "message": "Health check"
+  },
+  "setHealthCheckDesc": {
+    "message": "Check supported pages and copy a report without identifiers."
+  },
+  "setSync": {
+    "message": "Sync with my browser account"
+  },
+  "setSyncDesc": {
+    "message": "Sync eligible preferences through your browser account."
+  },
+  "setUnfollowers": {
+    "message": "Check unfollowers"
+  },
+  "setUnfollowersDesc": {
+    "message": "Compare scans and manage history and your keep list on this device."
+  },
+  "setUnfollowQueue": {
+    "message": "Unfollow queue"
+  },
+  "setUnfollowQueueDesc": {
+    "message": "Review selected accounts and queue them for unfollowing."
+  },
+  "setKeepUnsent": {
+    "message": "Keep unsent messages"
+  },
+  "setKeepUnsentDesc": {
+    "message": "Stores unsent messages on this device for up to 30 days. You can clear them from the chat."
+  },
+  "setKeyFeedNext": {
+    "message": "Next post"
+  },
+  "setKeyFeedPrev": {
+    "message": "Previous post"
+  },
+  "setKeySpeedUp": {
+    "message": "Speed up"
+  },
+  "setKeySpeedDown": {
+    "message": "Slow down"
+  },
+  "setKeyPlay": {
+    "message": "Play / pause"
+  },
+  "setKeyVolumeUp": {
+    "message": "Volume up"
+  },
+  "setKeyVolumeDown": {
+    "message": "Volume down"
+  },
+  "setKeyFrameBack": {
+    "message": "Previous frame"
+  },
+  "setKeyFrameForward": {
+    "message": "Next frame"
+  },
+  "setKeyFullSize": {
+    "message": "View full size"
+  },
+  "setKeyCopyUrl": {
+    "message": "Copy media URL"
+  },
+  "setKeyViewerFit": {
+    "message": "Fit image"
+  },
+  "setKeyViewerClose": {
+    "message": "Close viewer"
+  },
+  "optPageTitle": {
+    "message": "Settings · InstHush"
+  },
+  "optTitle": {
+    "message": "Settings"
+  },
+  "optSkip": {
+    "message": "Skip to content"
+  },
+  "optSearchLabel": {
+    "message": "Search settings"
+  },
+  "optSearchPlaceholder": {
+    "message": "Search settings"
+  },
+  "optSearchClear": {
+    "message": "Clear search"
+  },
+  "optNavLabel": {
+    "message": "Categories"
+  },
+  "optResults": {
+    "message": "Search results"
+  },
+  "optResultCount": {
+    "message": "$1 results"
+  },
+  "optNoResults": {
+    "message": "No results"
+  },
+  "optInside": {
+    "message": "In $1"
+  },
+  "optOpenIn": {
+    "message": "Open in $1"
+  },
+  "optOn": {
+    "message": "On"
+  },
+  "optOff": {
+    "message": "Off"
+  },
+  "optCancel": {
+    "message": "Cancel"
+  },
+  "optRetry": {
+    "message": "Try again"
+  },
+  "optLoadError": {
+    "message": "Could not load settings; try again."
+  },
+  "optKeyLabel": {
+    "message": "Shortcut: $1"
+  },
+  "optKeyNone": {
+    "message": "None"
+  },
+  "optKeyChange": {
+    "message": "Change"
+  },
+  "optKeyClear": {
+    "message": "Clear"
+  },
+  "optKeyDefault": {
+    "message": "Restore default"
+  },
+  "optKeyPress": {
+    "message": "Press a key"
+  },
+  "optKeyRecording": {
+    "message": "Press the new shortcut. Esc cancels."
+  },
+  "optKeyFixed": {
+    "message": "This shortcut is fixed."
+  },
+  "optKeyConflict": {
+    "message": "This key is already used for: $1"
+  },
+  "optKeyReserved": {
+    "message": "The browser reserves this key; choose another."
+  },
+  "optKeyNavigation": {
+    "message": "This key is needed to move around the page; choose another."
+  },
+  "optKeysCount": {
+    "message": "$1 custom shortcuts"
+  },
+  "optKeyGroupNavigation": {
+    "message": "Navigation"
+  },
+  "optKeyGroupPlayer": {
+    "message": "Player"
+  },
+  "optKeyGroupMedia": {
+    "message": "Media"
+  },
+  "optKeyGroupViewer": {
+    "message": "Viewer"
+  },
+  "optCtxGlobal": {
+    "message": "Anywhere on Instagram"
+  },
+  "optCtxFeed": {
+    "message": "In the feed and post window"
+  },
+  "optCtxPlayer": {
+    "message": "On the active video"
+  },
+  "optCtxMedia": {
+    "message": "On the selected post"
+  },
+  "optCtxViewer": {
+    "message": "In the full-size viewer"
+  },
+  "optExport": {
+    "message": "Export"
+  },
+  "optImport": {
+    "message": "Import"
+  },
+  "optReset": {
+    "message": "Reset"
+  },
+  "optBackupLists": {
+    "message": "Include personal lists (muted, favorites)"
+  },
+  "optImportTitle": {
+    "message": "Review the backup"
+  },
+  "optImportDesc": {
+    "message": "These preferences will change. Nothing is saved until you confirm."
+  },
+  "optImportApply": {
+    "message": "Restore"
+  },
+  "optNoChanges": {
+    "message": "No changes."
+  },
+  "optListMute": {
+    "message": "Muted: $1 words, $2 accounts"
+  },
+  "optListFavorites": {
+    "message": "Favorites: $1 accounts"
+  },
+  "optResetTitle": {
+    "message": "Reset settings"
+  },
+  "optResetDesc": {
+    "message": "Preferences return to fresh-install values. Muted lists, favorites, seen posts and usage time are kept."
+  },
+  "optResetSyncOff": {
+    "message": "Browser account sync turns off."
+  },
+  "optResetKeys": {
+    "message": "Custom shortcuts return to their defaults."
+  },
+  "optResetDone": {
+    "message": "Settings reset."
+  },
+  "optSyncActive": {
+    "message": "Settings sync on"
+  },
+  "optSyncTitle": {
+    "message": "Sync with your browser account"
+  },
+  "optSyncExplain": {
+    "message": "Eligible preferences travel to your other devices through your browser account. You can turn this off at any time."
+  },
+  "optSyncScope": {
+    "message": "Muted lists, favorites, usage time, counters and messages are not synced; they stay on this device."
+  },
+  "optSyncEnable": {
+    "message": "Turn on sync"
+  },
+  "optSyncChoiceTitle": {
+    "message": "Choose which settings to keep"
+  },
+  "optSyncChoiceDesc": {
+    "message": "This device and your account have different settings. The differences:"
+  },
+  "optSyncUseLocal": {
+    "message": "Use this device’s"
+  },
+  "optSyncUseRemote": {
+    "message": "Use the account copy"
+  },
+  "optSyncOff": {
+    "message": "Sync is off. Settings stay on this device."
+  },
+  "optSyncPending": {
+    "message": "Sync pending…"
+  },
+  "optSyncSynced": {
+    "message": "Synced."
+  },
+  "optSyncError": {
+    "message": "Could not sync: $1"
+  },
+  "optSyncError_quota": {
+    "message": "the browser sync limit was reached"
+  },
+  "optSyncError_unavailable": {
+    "message": "browser sync is unavailable"
+  },
+  "optSyncError_write": {
+    "message": "saving failed"
+  },
+  "optSyncRetry": {
+    "message": "Retry"
+  },
+  "optSyncUnavailable": {
+    "message": "This browser has no account sync."
+  },
+  "optSyncTurnedOn": {
+    "message": "Sync turned on."
+  },
+  "optSyncTurnedOff": {
+    "message": "Sync turned off; this device keeps its settings."
+  },
+  "optSyncFailed": {
+    "message": "Could not turn on sync; try again."
+  },
+  "popupAllSettings": {
+    "message": "All settings",
+    "description": "Popup and dock footer button that opens the Settings page."
+  },
+  "popupSettingsError": {
+    "message": "Could not open Settings; try again.",
+    "description": "Popup message when the Settings page cannot open."
+  },
+  "dockSettingsError": {
+    "message": "Could not open Settings; try again.",
+    "description": "Dock pill when the Settings page cannot open."
+  },
+  "dockCtxFeed": {
+    "message": "Feed",
+    "description": "Dock context heading on the home feed."
+  },
+  "dockCtxProfile": {
+    "message": "Profile",
+    "description": "Dock context heading on a profile."
+  },
+  "dockCtxPost": {
+    "message": "Post",
+    "description": "Dock context heading on a post page."
+  },
+  "dockCtxDm": {
+    "message": "Messages",
+    "description": "Dock context heading in a DM thread."
+  },
+  "dockCtxReels": {
+    "message": "Reels",
+    "description": "Dock context heading on Reels."
+  },
+  "dockNoMedia": {
+    "message": "No media to download on this page.",
+    "description": "Dock pill when the post has no downloadable media."
+  },
+  "commentSaveGif": {
+    "message": "Save GIF"
+  },
+  "toastGifSaving": {
+    "message": "Saving GIF."
+  },
+  "toastGifError": {
+    "message": "Download failed."
+  },
+  "dmArchiveTitle": {
+    "message": "Unsent messages"
+  },
+  "dmArchiveMark": {
+    "message": "Unsent"
+  },
+  "dmArchiveEmpty": {
+    "message": "There are no archived unsent messages in this chat."
+  },
+  "dmArchiveMedia": {
+    "message": "Media attachment"
+  },
+  "dmArchiveClose": {
+    "message": "Close"
+  },
+  "dmArchiveClear": {
+    "message": "Clear"
+  },
+  "dmArchiveConfirm": {
+    "message": "Clear this chat’s archive?"
+  },
+  "dmArchiveCancel": {
+    "message": "Cancel"
+  },
+  "dmArchiveJson": {
+    "message": "Save as JSON"
+  },
+  "dmArchiveTxt": {
+    "message": "Save as TXT"
+  },
+  "dmArchiveError": {
+    "message": "Could not complete the archive action."
+  },
+  "dmArchiveLoading": {
+    "message": "Loading archive…"
+  },
+  "voiceDownloadBtn": {
+    "message": "Download voice message"
+  },
+  "toastVoiceStarted": {
+    "message": "Downloading voice message."
+  },
+  "toastVoiceError": {
+    "message": "Could not download voice message."
+  },
+  "toastVoiceNone": {
+    "message": "No voice message found to download."
+  },
+  "toastNoMediaUnderCursor": {
+    "message": "No Instagram media found under the pointer."
+  },
+  "confirmText": {
+    "message": "Automatic unfollowing may cause Instagram to restrict or ban your account. We recommend unfollowing manually. Do you still want to continue?"
+  },
+  "confirmCancel": {
+    "message": "Cancel"
+  },
+  "confirmStart": {
+    "message": "I understand the risk, start"
+  },
+  "persistentWarning": {
+    "message": "Your account could be banned. We recommend unfollowing manually. Automatic unfollowing may cause Instagram to restrict or ban your account."
+  },
+  "shortWarning": {
+    "message": "Your account could be banned. We recommend unfollowing manually."
+  },
+  "dialogTitle": {
+    "message": "Start unfollow queue"
+  },
+  "queueSummary": {
+    "message": "Selected accounts: $1 · Remaining daily allowance: $2 / $3"
+  },
+  "pacingNote": {
+    "message": "Waits 45–90 s randomly between unfollows, pauses 10 min every 10 accounts (max 50 per day). Stops immediately and cools down for 24 h on any 429 or checkpoint."
+  },
+  "privateNote": {
+    "message": "Private accounts in the list will require a new follow request if you change your mind."
+  },
+  "statusIdle": {
+    "message": "Queue ready. Remaining daily allowance: $1 / $2"
+  },
+  "statusRunning": {
+    "message": "Unfollowing @$1 ($2 of $3)…"
+  },
+  "statusWaiting": {
+    "message": "Unfollowed $1 of $2 · Next in $3 s…"
+  },
+  "statusSafetyPause": {
+    "message": "Safety pause ($1 left) · $2 of $3 unfollowed"
+  },
+  "statusDailyCap": {
+    "message": "Daily unfollow limit reached ($1 / $2). Try again tomorrow."
+  },
+  "statusRateLimited": {
+    "message": "Instagram restricted the action (429 / checkpoint). Queue stopped and cooled down for 24 hours."
+  },
+  "statusStoppedFails": {
+    "message": "Stopped after $1 unfollows in a row could not be confirmed."
+  },
+  "statusCancelled": {
+    "message": "Queue stopped ($1 of $2 completed)."
+  },
+  "statusCompleted": {
+    "message": "Queue completed ($1 of $2 unfollowed)."
+  },
+  "statusPausedReload": {
+    "message": "Saved queue ($1 of $2 completed). Ready to resume."
+  },
+  "btnStartQueue": {
+    "message": "Start queue ($1)"
+  },
+  "btnResumeQueue": {
+    "message": "Resume ($1 left)"
+  },
+  "btnCancelQueue": {
+    "message": "Cancel queue"
+  },
+  "btnStopping": {
+    "message": "Stopping…"
+  },
+  "unfTitle": {
+    "message": "Unfollowers checker"
+  },
+  "unfTrigger": {
+    "message": "Unfollowers"
+  },
+  "unfClose": {
+    "message": "Close"
+  },
+  "unfScan": {
+    "message": "Scan"
+  },
+  "unfRescan": {
+    "message": "Rescan"
+  },
+  "unfResume": {
+    "message": "Resume scan"
+  },
+  "unfPause": {
+    "message": "Pause"
+  },
+  "unfExportCsv": {
+    "message": "Export CSV"
+  },
+  "unfQueueBtn": {
+    "message": "Unfollow queue ($1)"
+  },
+  "unfSearchPlaceholder": {
+    "message": "Search username or name"
+  },
+  "unfSearchLabel": {
+    "message": "Search"
+  },
+  "unfSelectAll": {
+    "message": "Select all ($1)"
+  },
+  "unfSelectAllShown": {
+    "message": "Select all shown ($1)"
+  },
+  "unfClearSelection": {
+    "message": "Clear selection"
+  },
+  "unfSelectedCount": {
+    "message": "$1 selected"
+  },
+  "unfKeptCount": {
+    "message": "$1 kept"
+  },
+  "unfKeepBtn": {
+    "message": "Keep"
+  },
+  "unfKeptBtn": {
+    "message": "Kept"
+  },
+  "unfKeepTip": {
+    "message": "Keep: never select this account for unfollowing"
+  },
+  "unfKeptTip": {
+    "message": "Kept: never selected for unfollowing. Click to allow it again."
+  },
+  "unfNotScanned": {
+    "message": "Not scanned yet."
+  },
+  "unfLastScan": {
+    "message": "Last scan: $1 · $2 followers · $3 following"
+  },
+  "unfPartialScan": {
+    "message": "Partial scan: $1 · $2 followers · $3 following"
+  },
+  "unfLoadingFollowers": {
+    "message": "Loading followers… $1"
+  },
+  "unfLoadingFollowing": {
+    "message": "Loading following… $1"
+  },
+  "unfSafetyPause": {
+    "message": "Safety pause, $1 s… ($2 loaded so far)"
+  },
+  "unfRateLimited": {
+    "message": "Instagram rate-limited requests recently (wait $1 min). Progress saved."
+  },
+  "unfLoginRequired": {
+    "message": "Log in to Instagram first."
+  },
+  "unfEmptyBeforeScan": {
+    "message": "Press Scan to load your followers and following."
+  },
+  "unfEmptyList": {
+    "message": "Nobody here."
+  },
+  "unfEmptyHistory": {
+    "message": "Changes show up here from your second full scan on. Each scan is compared with the one before it."
+  },
+  "unfEmptyKeep": {
+    "message": "Your keep list is empty. Use the 'Keep' button on any account or add a username above."
+  },
+  "unfKeepAddPlaceholder": {
+    "message": "Add @username"
+  },
+  "unfKeepAddBtn": {
+    "message": "Add"
+  },
+  "unfShowingFirst": {
+    "message": "Showing $1 of $2. Use search or export CSV for the rest."
+  },
+  "unfSinceScan": {
+    "message": "Since your scan on $1"
+  },
+  "unfNoChangesSince": {
+    "message": "No changes since your scan on $1"
+  },
+  "unfNewBadge": {
+    "message": "New"
+  },
+  "unfFirstScanRow": {
+    "message": "First scan: $1 followers · $2 following"
+  },
+  "unfHistoryRowHead": {
+    "message": "$1 followers ($2) · $3 following ($4)"
+  },
+  "unfNoChangesEntry": {
+    "message": "No changes since the scan before."
+  },
+  "unfShowAllChanges": {
+    "message": "Show all changes"
+  },
+  "reelCounterBadge": {
+    "message": "$1 reels today"
+  },
+  "reelCounterBadgeOne": {
+    "message": "$1 reel today"
+  },
+  "reelCounterAria": {
+    "message": "Reel $1 today"
+  },
+  "focusLimitPill": {
+    "message": "$1 left today"
+  },
+  "focusLimitTitle": {
+    "message": "That’s your time for today"
+  },
+  "focusLimitBody": {
+    "message": "You’ve spent your $1 on Reels and Explore today. It resets at midnight."
+  },
+  "focusLimitMore": {
+    "message": "+5 min"
+  },
+  "focusLimitHome": {
+    "message": "Back to Home"
+  },
+  "mediaToolbarLabel": {
+    "message": "Media toolbar"
+  },
+  "mediaDownloadOne": {
+    "message": "Download item"
+  },
+  "mediaDownloadAll": {
+    "message": "Download all"
+  },
+  "mediaViewFull": {
+    "message": "View full size"
+  },
+  "mediaCopyUrl": {
+    "message": "Copy media URL"
+  },
+  "mediaCopyCaption": {
+    "message": "Copy caption"
+  },
+  "avatarViewFull": {
+    "message": "View HD profile picture"
+  },
+  "zoomTitle": {
+    "message": "Full-size viewer"
+  },
+  "toastUrlCopied": {
+    "message": "Media URL copied."
+  },
+  "toastCaptionCopied": {
+    "message": "Caption copied."
+  },
+  "toastNoCaption": {
+    "message": "This post has no caption."
+  },
+  "toastZoomPhotoOnly": {
+    "message": "Only photos can be zoomed."
+  },
+  "toastClipboardError": {
+    "message": "Could not copy to clipboard."
+  },
+  "contextMenuDownload": {
+    "message": "Download with InstHush"
+  },
+  "storyDetailsBtn": {
+    "message": "Story details"
+  },
+  "storyDetailsBtnCount": {
+    "message": "Story details ($1)"
+  },
+  "storyDetailsTitle": {
+    "message": "Story details"
+  },
+  "storyDetailsTitleUser": {
+    "message": "Story by @$1"
+  },
+  "storyDetailsClose": {
+    "message": "Close"
+  },
+  "storyDetailsLoading": {
+    "message": "Loading…"
+  },
+  "storyDetailsEmpty": {
+    "message": "No mentions, tags, links or music on this story."
+  },
+  "storyDetailsError": {
+    "message": "Could not load story details."
+  },
+  "storyDetailsRateLimited": {
+    "message": "Instagram temporarily rate-limited requests (wait $1 min)."
+  },
+  "storyDetailsMentions": {
+    "message": "Mentions"
+  },
+  "storyDetailsHiddenNote": {
+    "message": "$1 hidden (tiny, flagged hidden, or outside the frame)."
+  },
+  "storyDetailsHiddenPill": {
+    "message": "hidden"
+  },
+  "storyDetailsHiddenTip": {
+    "message": "Not visible on the story"
+  },
+  "storyDetailsHashtags": {
+    "message": "Hashtags"
+  },
+  "storyDetailsLocations": {
+    "message": "Location"
+  },
+  "storyDetailsLinks": {
+    "message": "Links"
+  },
+  "storyDetailsMusic": {
+    "message": "Music"
+  },
+  "storyDetailsSharedPosts": {
+    "message": "Shared posts"
+  },
+  "storyDetailsPostLabel": {
+    "message": "Post"
+  },
+  "storyDetailsReelLabel": {
+    "message": "Reel"
+  },
+  "followBadgeMutual": {
+    "message": "Follow each other"
+  },
+  "followBadgeMutualTitle": {
+    "message": "You follow each other"
+  },
+  "followBadgeFollowsYou": {
+    "message": "Follows you"
+  },
+  "followBadgeFollowsYouTitle": {
+    "message": "This account follows you"
+  },
+  "followBadgeNotFollowingBack": {
+    "message": "Doesn't follow you"
+  },
+  "followBadgeNotFollowingBackTitle": {
+    "message": "This account doesn't follow you"
+  },
+  "followBadgeNotFollowing": {
+    "message": "Not following"
+  },
+  "followBadgeNotFollowingTitle": {
+    "message": "Neither of you follows the other"
+  },
+  "followBadgeLoading": {
+    "message": "Checking follow status"
+  },
+  "followBadgeUnknown": {
+    "message": "Follow status"
+  },
+  "followBadgeUnknownTitle": {
+    "message": "Click to check whether this account follows you"
+  },
+  "followBadgeDetailsHint": {
+    "message": "$1 · Click for details"
+  },
+  "followDetailsTitle": {
+    "message": "You and @$1"
+  },
+  "followDetailsClose": {
+    "message": "Close"
+  },
+  "followDetailsLoading": {
+    "message": "Loading…"
+  },
+  "followDetailsError": {
+    "message": "Could not load follow details."
+  },
+  "followDetailsRateLimited": {
+    "message": "Instagram temporarily rate-limited requests (wait $1 min)."
+  },
+  "followDetailsPrivate": {
+    "message": "Private account"
+  },
+  "followDetailsSectionFollowing": {
+    "message": "Following"
+  },
+  "followDetailsSectionSettings": {
+    "message": "Your settings for them"
+  },
+  "followDetailsYouFollow": {
+    "message": "You follow them"
+  },
+  "followDetailsTheyFollow": {
+    "message": "They follow you"
+  },
+  "followDetailsYes": {
+    "message": "Yes"
+  },
+  "followDetailsNo": {
+    "message": "No"
+  },
+  "followDetailsRequested": {
+    "message": "Requested"
+  },
+  "followDetailsIncoming": {
+    "message": "Wants to follow you"
+  },
+  "followDetailsCloseFriend": {
+    "message": "Close friend"
+  },
+  "followDetailsFavorite": {
+    "message": "Favorite"
+  },
+  "followDetailsMutedPosts": {
+    "message": "Posts muted"
+  },
+  "followDetailsMutedStories": {
+    "message": "Stories muted"
+  },
+  "followDetailsMutedNotes": {
+    "message": "Notes muted"
+  },
+  "followDetailsRestricted": {
+    "message": "Restricted"
+  },
+  "followDetailsStoryHidden": {
+    "message": "Your story is hidden from them"
+  },
+  "followDetailsBlocked": {
+    "message": "Blocked"
+  },
+  "followDetailsSubscribed": {
+    "message": "Subscribed"
+  },
+  "saveSoundWorking": {
+    "message": "Preparing MP3…"
+  },
+  "saveSoundStarted": {
+    "message": "MP3 download started."
+  },
+  "saveSoundMissing": {
+    "message": "No audio could be found in this video."
+  },
+  "saveSoundBusy": {
+    "message": "A media job is running. Try again shortly."
+  },
+  "saveSoundSize": {
+    "message": "This media exceeds the MP3 conversion limit."
+  },
+  "saveSoundTarget": {
+    "message": "The video changed or could not be identified. Reopen the menu."
+  },
+  "saveSoundFailed": {
+    "message": "Could not save the sound as MP3."
+  },
+  "optGrayscaleNever": {
+    "message": "Off"
+  },
+  "optGrayscaleLimited": {
+    "message": "Always on Reels and Explore"
+  },
+  "optGrayscaleLimit": {
+    "message": "When time runs out"
+  },
+  "optGrayscaleAlways": {
+    "message": "Everywhere"
+  },
+  "optFormatZip": {
+    "message": "ZIP archive"
+  },
+  "optFormatFiles": {
+    "message": "Separate files"
+  },
+  "optTemplatePreview": {
+    "message": "Example: $1"
+  },
+  "optTemplateInvalid": {
+    "message": "This template does not produce a file name."
+  },
+  "optTemplateTooLong": {
+    "message": "A template can have at most 6 folder levels and 240 characters."
+  },
+  "optTextTooLong": {
+    "message": "This text is too long."
+  },
+  "optShareDomainInvalid": {
+    "message": "Enter a valid domain (for example kkinstagram.com)."
+  },
+  "optShareDomainPreview": {
+    "message": "Example: $1"
+  },
+  "optShareDomainEmpty": {
+    "message": "Empty: links are copied with instagram.com."
+  },
+  "optMp3PermissionDenied": {
+    "message": "MP3 needs access to Instagram's media servers; it stayed off because access was not granted."
+  },
+  "riskIntro": {
+    "message": "These send extra requests to Instagram or keep private data. Each one is turned on separately and is off by default."
+  },
+  "riskEnable": {
+    "message": "I understand, turn on"
+  },
+  "riskRateWarning": {
+    "message": "Instagram may limit requests. The job runs slowly, pauses and stops if Instagram asks you to verify your account."
+  },
+  "riskScanWarning": {
+    "message": "A scan reads your follower lists from Instagram slowly; scanning often can hit request limits. Results stay on this device."
+  },
+  "riskQueueWarning": {
+    "message": "Your account could be banned. We recommend unfollowing manually."
+  },
+  "riskQueueDetail": {
+    "message": "The queue runs only for accounts you select, after a second confirmation: it waits 45–90 s between actions, unfollows at most 50 accounts a day and stops if Instagram warns you."
+  },
+  "riskUnsentWarning": {
+    "message": "Unsent messages are stored only on this device."
+  },
+  "riskUnsentDetail": {
+    "message": "While on, received messages the sender later removes are kept for up to 30 days. They never go into sync, settings backups or reports."
+  },
+  "riskUnsentClear": {
+    "message": "Clear messages"
+  },
+  "riskUnsentCount": {
+    "message": "$1 messages stored on this device."
+  },
+  "riskUnsentClearConfirm": {
+    "message": "$1 stored unsent messages will be deleted from this device. This cannot be undone."
+  },
+  "riskUnsentCleared": {
+    "message": "Stored messages deleted."
+  },
+  "dockCtxStory": {
+    "message": "Story"
+  },
+  "dockCtxExplore": {
+    "message": "Explore"
+  },
+  "setGroupHealth": {
+    "message": "Instagram compatibility"
+  },
+  "optHealthRun": {
+    "message": "Run the check"
+  },
+  "optHealthCopy": {
+    "message": "Copy report"
+  },
+  "optHealthClose": {
+    "message": "Hide results"
+  },
+  "optHealthOwn": {
+    "message": "InstHush"
+  },
+  "optHealthAffects": {
+    "message": "Affects: $1"
+  },
+  "optHealthSummary_pass": {
+    "message": "Everything works."
+  },
+  "optHealthSummary_warn": {
+    "message": "Mostly working, with some warnings."
+  },
+  "optHealthSummary_fail": {
+    "message": "Something is broken."
+  },
+  "optHealthSummary_skip": {
+    "message": "Nothing could be checked this time."
+  },
+  "optHealthLast": {
+    "message": "Last check: $1"
+  },
+  "optHealthNever": {
+    "message": "Not run yet."
+  },
+  "optHealthRunning": {
+    "message": "Checking…"
+  },
+  "optHealthStep": {
+    "message": "Checking $1 · $2 of $3"
+  },
+  "optHealthDone": {
+    "message": "The health check finished."
+  },
+  "optHealthBusy": {
+    "message": "A check is already running."
+  },
+  "optHealthFailed": {
+    "message": "The check could not run. Try again."
+  },
+  "optHealthLoggedOut": {
+    "message": "You are not logged in to Instagram. Log in, then run the check again."
+  },
+  "optHealthCopied": {
+    "message": "Report copied."
+  },
+  "optHealthCopyFailed": {
+    "message": "The report could not be copied."
+  },
+  "optHealthConfirmTitle": {
+    "message": "The check opens an Instagram tab in the background"
+  },
+  "optHealthConfirmDesc": {
+    "message": "Nothing in your account changes. It sends Instagram nothing of its own; the pages load as they would for you."
+  },
+  "optHealthStep1": {
+    "message": "It visits Home, a post, a profile, Reels, Explore and the inbox, one after another."
+  },
+  "optHealthStep2": {
+    "message": "The post and profile come from your own feed."
+  },
+  "optHealthStep3": {
+    "message": "No story and no chat is ever opened."
+  },
+  "optHealthStep4": {
+    "message": "The tab closes when it is done. The report holds no usernames, links or ids."
+  },
+  "hcStatus_pass": {
+    "message": "Passed"
+  },
+  "hcStatus_warn": {
+    "message": "Warning"
+  },
+  "hcStatus_fail": {
+    "message": "Failed"
+  },
+  "hcStatus_skip": {
+    "message": "Skipped"
+  },
+  "hcGroup_home": {
+    "message": "Home feed"
+  },
+  "hcGroup_post": {
+    "message": "A post"
+  },
+  "hcGroup_profile": {
+    "message": "A profile"
+  },
+  "hcGroup_reels": {
+    "message": "Reels"
+  },
+  "hcGroup_explore": {
+    "message": "Explore"
+  },
+  "hcGroup_direct": {
+    "message": "Messages"
+  },
+  "hcGroup_stories": {
+    "message": "Stories"
+  },
+  "hc_page": {
+    "message": "Page script"
+  },
+  "hc_relay": {
+    "message": "Instagram page data"
+  },
+  "hc_feed": {
+    "message": "Post layout"
+  },
+  "hc_postdata": {
+    "message": "Post data"
+  },
+  "hc_nav": {
+    "message": "Navigation"
+  },
+  "hc_stories": {
+    "message": "Stories tray"
+  },
+  "hc_comments": {
+    "message": "Comments"
+  },
+  "hc_profile": {
+    "message": "Profile layout"
+  },
+  "hc_avatar": {
+    "message": "Profile picture capture"
+  },
+  "hc_bulk": {
+    "message": "Bulk download format"
+  },
+  "hc_reels": {
+    "message": "Reels player"
+  },
+  "hc_explore": {
+    "message": "Explore grid"
+  },
+  "hc_inbox": {
+    "message": "Inbox"
+  },
+  "hc_cooldown": {
+    "message": "Rate limit"
+  },
+  "hc_errors": {
+    "message": "Feature errors"
+  },
+  "hc_error": {
+    "message": "Feature errors"
+  },
+  "hc_session": {
+    "message": "Logged in"
+  },
+  "hc_tab": {
+    "message": "Instagram tab"
+  },
+  "hc_stopped": {
+    "message": "Check stopped"
+  },
+  "hc_stories_viewer": {
+    "message": "Story viewer"
+  },
+  "hc_step": {
+    "message": "Page"
+  },
+  "hc_post_step": {
+    "message": "Page"
+  },
+  "hc_profile_step": {
+    "message": "Page"
+  },
+  "hc_page_pass": {
+    "message": "Connected."
+  },
+  "hc_page_fail": {
+    "message": "The page script does not answer."
+  },
+  "hc_relay_pass": {
+    "message": "Found and readable."
+  },
+  "hc_relay_fail": {
+    "message": "Instagram's page data was not found. Features that read posts would have to ask Instagram."
+  },
+  "hc_relay_skip": {
+    "message": "Needs the page script."
+  },
+  "hc_feed_pass": {
+    "message": "Recognized $1 post(s) on screen."
+  },
+  "hc_feed_warn": {
+    "message": "Found posts without a date."
+  },
+  "hc_feed_fail": {
+    "message": "Posts are on screen, but not where InstHush looks for them."
+  },
+  "hc_feed_skip": {
+    "message": "No posts loaded in time. Run the check again."
+  },
+  "hc_postdata_pass": {
+    "message": "Read the media of a post on screen ($1 file(s))."
+  },
+  "hc_postdata_warn": {
+    "message": "A post on screen was not found in the page data. Downloads fall back to asking Instagram."
+  },
+  "hc_postdata_fail": {
+    "message": "Found a post but could not read its photo or video links."
+  },
+  "hc_postdata_skip": {
+    "message": "Needs the page data, or no post on this page."
+  },
+  "hc_nav_pass": {
+    "message": "Found the Reels and Explore links."
+  },
+  "hc_nav_warn": {
+    "message": "Could not find the Reels or Explore link in the menu."
+  },
+  "hc_stories_pass": {
+    "message": "Found the stories tray."
+  },
+  "hc_stories_skip": {
+    "message": "No stories tray right now. It only shows when people you follow posted stories."
+  },
+  "hc_comments_pass": {
+    "message": "Found comments with their reply control."
+  },
+  "hc_comments_warn": {
+    "message": "Found comments, but not their reply control."
+  },
+  "hc_comments_skip": {
+    "message": "This post shows no comments."
+  },
+  "hc_profile_pass": {
+    "message": "Found the header, picture and username."
+  },
+  "hc_profile_warn": {
+    "message": "Found the profile header, but no picture or username in it."
+  },
+  "hc_profile_fail": {
+    "message": "Could not find the profile header."
+  },
+  "hc_avatar_pass": {
+    "message": "Captured the picture from Instagram's own response."
+  },
+  "hc_avatar_warn": {
+    "message": "Instagram's own response did not carry the picture. The picture falls back to the page."
+  },
+  "hc_avatar_skip": {
+    "message": "Needs the page bridge."
+  },
+  "hc_bulk_pass": {
+    "message": "Captured Instagram's profile request format."
+  },
+  "hc_bulk_warn": {
+    "message": "Instagram did not load the profile's posts the way InstHush expects."
+  },
+  "hc_bulk_skip": {
+    "message": "Bulk profile download is off."
+  },
+  "hc_reels_pass": {
+    "message": "Found the reel video."
+  },
+  "hc_reels_fail": {
+    "message": "Could not find a reel video."
+  },
+  "hc_explore_pass": {
+    "message": "Found posts in the grid."
+  },
+  "hc_explore_fail": {
+    "message": "Could not find the posts in the grid."
+  },
+  "hc_inbox_pass": {
+    "message": "Opened the inbox. No chat is opened, so nothing is marked as read."
+  },
+  "hc_inbox_warn": {
+    "message": "Instagram opened a chat by itself. InstHush does not open chats."
+  },
+  "hc_inbox_fail": {
+    "message": "Instagram opened another page instead of the inbox."
+  },
+  "hc_cooldown_pass": {
+    "message": "Not rate limited."
+  },
+  "hc_cooldown_warn": {
+    "message": "Instagram limited the requests of InstHush. They are paused for about $1 more min."
+  },
+  "hc_errors_pass": {
+    "message": "No feature errors recorded."
+  },
+  "hc_error_fail": {
+    "message": "Stopped after repeated errors (recently)."
+  },
+  "hc_error_warn": {
+    "message": "Stopped after repeated errors some time ago."
+  },
+  "hc_session_fail": {
+    "message": "Not logged in to Instagram in this browser."
+  },
+  "hc_tab_fail": {
+    "message": "Could not open a tab for the check."
+  },
+  "hc_stopped_warn": {
+    "message": "The check stopped early (the tab was closed, or Instagram redirected to a story or chat)."
+  },
+  "hc_stories_viewer_skip": {
+    "message": "Not opened, because its owner would see a view. Open a story yourself to try its features."
+  },
+  "hc_step_skip": {
+    "message": "Home had nothing to open."
+  },
+  "hc_step_fail": {
+    "message": "InstHush did not answer on this page."
+  },
+  "hc_post_step_skip": {
+    "message": "Home had no post to open."
+  },
+  "hc_profile_step_skip": {
+    "message": "Home had no profile to open."
+  },
+  "hcAff_downloads": {
+    "message": "Downloads"
+  },
+  "hcAff_story_and_message_privacy": {
+    "message": "Story and message privacy"
+  },
+  "hcAff_follow_badge": {
+    "message": "Follow badge"
+  },
+  "hcAff_story_details": {
+    "message": "Story details"
+  },
+  "hcAff_full_size_view": {
+    "message": "Full size view"
+  },
+  "hcAff_copy_media_link": {
+    "message": "Copy media link"
+  },
+  "hcAff_exact_dates": {
+    "message": "Exact dates"
+  },
+  "hcAff_media_toolbar": {
+    "message": "Media toolbar"
+  },
+  "hcAff_ad_cleanup": {
+    "message": "Ad cleanup"
+  },
+  "hcAff_keyboard_keys": {
+    "message": "Keyboard keys"
+  },
+  "hcAff_seen_posts": {
+    "message": "Seen posts"
+  },
+  "hcAff_hide_reels_tab": {
+    "message": "Hide Reels tab"
+  },
+  "hcAff_hide_explore_tab": {
+    "message": "Hide Explore tab"
+  },
+  "hcAff_focus_mode": {
+    "message": "Focus mode"
+  },
+  "hcAff_copy_comment": {
+    "message": "Copy comment"
+  },
+  "hcAff_author_badge": {
+    "message": "Author badge"
+  },
+  "hcAff_comment_gif_save": {
+    "message": "Comment GIF save"
+  },
+  "hcAff_hd_profile_picture": {
+    "message": "HD profile picture"
+  },
+  "hcAff_bulk_download": {
+    "message": "Bulk download"
+  },
+  "hcAff_video_controls": {
+    "message": "Video controls"
+  },
+  "hcAff_reel_counter": {
+    "message": "Reel counter"
+  },
+  "hcAff_reel_ad_cleanup": {
+    "message": "Reel ad cleanup"
+  },
+  "hcAff_next_reel_when_one_ends": {
+    "message": "Next reel when one ends"
+  },
+  "hcAff_hover_zoom": {
+    "message": "Hover zoom"
+  },
+  "hcAff_daily_limit": {
+    "message": "Daily limit"
+  },
+  "hcAff_message_privacy": {
+    "message": "Message privacy"
+  },
+  "hcAff_voice_message_save": {
+    "message": "Voice message save"
+  },
+  "hcAff_keep_unsent_messages": {
+    "message": "Keep unsent messages"
+  },
+  "hcAff_unfollowers": {
+    "message": "Unfollowers"
+  },
+  "hcAff_most_features": {
+    "message": "Most features"
+  },
+  "hcAff_the_health_check": {
+    "message": "The health check"
+  },
+  "hcAff_everything_on_this_page": {
+    "message": "Everything on this page"
+  }
+}

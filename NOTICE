@@ -1,0 +1,72 @@
+InstHush. Copyright (C) 2026 KSPIN (github.com/kspinfps). Licensed under GPL-3.0-only, see LICENSE.
+Versions up to 1.8.x were released under the MIT License.
+Parts of InstHush are adapted from Glassgram (https://github.com/jewdev/glassgram), Copyright (C) jewdev, GPL-3.0-only.
+
+Adapted files
+Each file below carries a header naming Glassgram. Glassgram is TypeScript; these are plain JavaScript ports,
+not verbatim copies. The Glassgram source each one follows is given in parentheses (tag v1.9.0).
+
+Background and extension pages
+- src/bg/audio-job.js (src/background/index.ts)
+- src/bg/context-menu.js (src/background/index.ts)
+- src/offscreen/audio.js (src/offscreen/mp3.ts, src/offscreen/jobs.ts)
+- src/options/options.js (options page search and grouping)
+
+Page (MAIN world)
+- src/page/net.js, in part (src/inject/main-world.ts: analytics blocking, Lightspeed and typing filters)
+- src/page/relay.js (src/shared/relay.ts, src/shared/page-channel.ts, src/inject/main-world.ts)
+- src/page/dm-capture.js (src/inject/main-world.ts, src/shared/slide.ts)
+
+Libraries
+- src/lib/settings-schema.js (options schema and search)
+- src/lib/rules.js, in part (analytics and Lightspeed matchers)
+- src/lib/links.js (src/shared/links.ts)
+- src/lib/csv.js (src/content/core/post-csv.ts, src/content/features/unfollowers-history.ts)
+- src/lib/focus-budget.js (src/shared/focus.ts)
+- src/lib/health.js (src/shared/health.ts)
+- src/bg/health.js (src/options/health.ts, src/shared/health.ts, src/shared/tabs.ts)
+- src/content/health.js (src/content/health.ts)
+- src/options/health.js (src/options/health.ts)
+- src/lib/lightspeed.js (src/shared/lightspeed.ts, src/inject/main-world.ts)
+- src/lib/slide.js (src/shared/slide.ts, src/inject/main-world.ts)
+
+Content core and UI
+- src/content/cleanlinks.js (src/shared/links.ts)
+- src/content/core/actions.js (src/content/core/actions.ts)
+- src/content/core/api.js (src/content/core/api.ts, src/content/core/rate-limit.ts, src/content/core/bridge.ts)
+- src/content/core/api-pages.js (src/content/core/api.ts, src/inject/main-world.ts)
+- src/content/core/download.js (src/content/core/download.ts, src/offscreen/jobs.ts)
+- src/content/core/headers.js (src/content/core/headers.ts, src/content/core/api.ts)
+- src/content/core/hover.js (src/content/core/hover.ts, resolve.ts, router.ts, selectors.ts)
+- src/content/core/resolve.js (src/content/core/media.ts, resolve.ts, router.ts, selectors.ts)
+- src/content/core/story-extras.js (src/content/core/story-extras.ts)
+- src/content/ui/shadow.js (src/content/ui/dom.ts, hosts.ts, toast.ts)
+- src/content/ui/zoom.js (src/content/ui/zoom.ts)
+
+Content features
+- src/content/features/bulk-download.js (src/content/core/api.ts, src/content/core/download.ts, src/offscreen/jobs.ts)
+- src/content/features/comment-media.js (src/content/features/comment-media.ts, src/content/core/selectors.ts)
+- src/content/features/context-menu.js (src/content/features/context-menu.ts)
+- src/content/features/declutter.js (src/content/features/declutter.ts)
+- src/content/features/direct-links.js (src/content/features/links.ts)
+- src/content/features/dm-archive.js (src/content/features/dm-archive.ts)
+- src/content/features/dm-tools.js (src/content/features/dm-tools.ts, src/inject/main-world.ts)
+- src/content/features/focus-limit.js (src/content/features/focus.ts)
+- src/content/features/follow-badge.js (src/content/features/follow-badge.ts)
+- src/content/features/media-toolbar.js (src/content/features/media-toolbar.ts, shortcuts.ts)
+- src/content/features/no-double-tap.js (src/content/features/no-double-tap.ts)
+- src/content/features/profile-tools.js (src/content/features/profile-tools.ts)
+- src/content/features/reel-ads.js (src/content/features/reel-ads.ts)
+- src/content/features/reel-counter.js (src/content/features/reel-counter.ts)
+- src/content/features/save-sound.js (src/content/core/actions.ts, src/content/features/media-toolbar.ts)
+- src/content/features/story-details.js (src/content/features/story-details.ts, src/content/ui/modal.ts)
+- src/content/features/story-no-advance.js (src/content/features/story-no-advance.ts)
+- src/content/features/unfollow-queue.js (src/content/features/unfollowers.ts, unfollow-pacing.ts, src/content/core/api.ts)
+- src/content/features/unfollowers.js (src/content/features/unfollowers.ts, profile-tools.ts, src/content/ui/modal.ts)
+- src/content/features/unfollowers-history.js (src/content/features/unfollowers-history.ts, src/content/core/api.ts)
+
+Third-party code shipped unmodified
+- src/vendor/lame.min.js: lamejs (@breezystack/lamejs 1.2.7, dist/lamejs.iife.js), based on LAME,
+  licensed under LGPL-3.0, which is compatible with GPL-3.0. Notice: src/vendor/lame.LICENSE.txt.
+  SHA-256 0be202ec162aa3042d5c5c4e6288ad326cff8cec7312c2894a0a91ad2f9aeda1. Loaded only while an MP3 is being made.
+- src/vendor/gsap.min.js: GSAP 3.15.1 (https://gsap.com), under its own license; used by the popup only.

@@ -1,0 +1,130 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "1.9.0",
+  "default_locale": "tr",
+  "permissions": [
+    "storage",
+    "downloads",
+    "contextMenus",
+    "offscreen",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'self' https://*.cdninstagram.com https://*.fbcdn.net https://lookaside.fbsbx.com"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png",
+      "128": "assets/icon-128.png"
+    }
+  },
+  "options_ui": {
+    "page": "src/options/options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "src/bg/sw.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "src/content/core/loader.js",
+        "src/content/ghostmark.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "src/lib/media.js",
+        "src/lib/rules.js",
+        "src/lib/ads.js",
+        "src/lib/slide.js",
+        "src/lib/lightspeed.js",
+        "src/page/dm-capture.js",
+        "src/page/relay.js",
+        "src/page/net.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "src/content/bridge.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "src/content/feedmode.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "src/lib/themes.js",
+        "src/lib/shortcode.js",
+        "src/lib/media.js",
+        "src/lib/favorites.js",
+        "src/lib/links.js",
+        "src/content/core/observer.js",
+        "src/content/core/router.js",
+        "src/content/core/selectors.js",
+        "src/content/core/lazy.js",
+        "src/content/video.js",
+        "src/content/timer.js",
+        "src/content/dock.js",
+        "src/content/keys.js",
+        "src/content/cleanlinks.js"
+      ],
+      "run_at": "document_idle",
+      "world": "ISOLATED",
+      "all_frames": false,
+      "css": [
+        "src/content/video.css",
+        "src/content/dock.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "optional_host_permissions": [
+    "https://*.cdninstagram.com/*",
+    "https://*.fbcdn.net/*",
+    "https://lookaside.fbsbx.com/*"
+  ]
+}
