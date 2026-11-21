@@ -13,9 +13,11 @@ Chrome, Brave, Edge, Firefox, Zen ve LibreWolf'ta çalışır. Açık kaynak (GP
 ## Kurulum
 
 <!-- store-links -->
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Y%C3%BCkle-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/insthush/kaddhdoafgbognkagpddomhkhmngjjia)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Y%C3%BCkle-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/insthush/kaddhdoafgbognkagpddomhkhmngjjia) [![Firefox Add-ons](https://img.shields.io/badge/Firefox_Add--ons-Y%C3%BCkle-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/insthush/)
 
 **Chrome, Brave, Edge:** [Chrome Web Store](https://chromewebstore.google.com/detail/insthush/kaddhdoafgbognkagpddomhkhmngjjia) üzerinden yükleyin. Aşağıdaki elle kurulum adımları yalnızca paketlenmemiş sürüm için gerekir.
+
+**Firefox, Zen, LibreWolf:** [Firefox Eklentileri](https://addons.mozilla.org/firefox/addon/insthush/) üzerinden yükleyin.
 
 **Chrome, Brave, Edge**
 
