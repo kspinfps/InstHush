@@ -1,12 +1,44 @@
+<div align="center">
+
+<img src="assets/icon-128.png" width="96" alt="InstHush simgesi">
+
 # InstHush
 
-**Web üzerindeki Instagram için gizli mod, video araçları ve indirme. Her şey cihazınızda çalışır: hesap yok, takip yok.**
+**Web üzerindeki Instagram için gizli mod, video araçları ve indirme.**<br>
+Her şey cihazınızda çalışır: hesap yok, takip yok.
 
-[English](README.md) · [Gizlilik politikası](PRIVACY.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Y%C3%BCkle-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/insthush/kaddhdoafgbognkagpddomhkhmngjjia) [![Firefox Add-ons](https://img.shields.io/badge/Firefox_Add--ons-Y%C3%BCkle-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/insthush/) ![Lisans](https://img.shields.io/badge/lisans-GPL--3.0-blue) ![Sürüm](https://img.shields.io/badge/s%C3%BCr%C3%BCm-1.9.0-green)
+
+[English](README.md) · [Gizlilik politikası](PRIVACY.md) · [Sorun bildir](../../issues)
+
+<img src="assets/store/ghost.png" width="860" alt="InstHush: görüldü bilgisi sizin kontrolünüzde">
+
+</div>
 
 > InstHush; Instagram veya Meta ile bağlantılı değildir, onlar tarafından onaylanmamış veya desteklenmemiştir. “Instagram”, Meta Platforms, Inc. şirketinin ticari markasıdır.
 
-![Videoda InstHush video çubuğu](screenshots/tr/video-bar.png)
+## Tanıtım videosu
+
+<div align="center">
+
+[![InstHush videosu: hayalet modu, indirme ve video araçları](https://img.youtube.com/vi/i7MKBoRTjI0/maxresdefault.jpg)](https://www.youtube.com/watch?v=i7MKBoRTjI0)
+
+*YouTube'da izlemek için tıklayın.*
+
+</div>
+
+## Bir bakışta
+
+<table>
+<tr>
+<td width="50%"><img src="assets/store/download.png" alt="Video çubuğundan indirme"></td>
+<td width="50%"><img src="assets/store/video.png" alt="Yakınlaştır, döndür, döngü"></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/store/limit.png" alt="Reels ve Keşfet için günlük sınır"></td>
+<td width="50%"><img src="assets/store/themes.png" alt="Altı tema"></td>
+</tr>
+</table>
 
 Chrome, Brave, Edge, Firefox, Zen ve LibreWolf'ta çalışır. Açık kaynak (GPL-3.0-only), düz JavaScript, derleme adımı yok. Bu sayfadaki ekran görüntüleri, `hesap_a` gibi uydurma hesaplar içeren yerel test sayfalarından alınmıştır; gerçek bir hesaptan değil.
 

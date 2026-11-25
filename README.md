@@ -1,12 +1,44 @@
+<div align="center">
+
+<img src="assets/icon-128.png" width="96" alt="InstHush icon">
+
 # InstHush
 
-**Ghost mode, video tools and downloads for Instagram on the web. Everything runs on your device: no account, no tracking.**
+**Ghost mode, video tools and downloads for Instagram on the web.**<br>
+Everything runs on your device: no account, no tracking.
 
-[Türkçe](README.tr.md) · [Privacy policy](PRIVACY.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/insthush/kaddhdoafgbognkagpddomhkhmngjjia) [![Firefox Add-ons](https://img.shields.io/badge/Firefox_Add--ons-Install-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/insthush/) ![License](https://img.shields.io/badge/license-GPL--3.0-blue) ![Version](https://img.shields.io/badge/version-1.9.0-green)
+
+[Türkçe](README.tr.md) · [Privacy policy](PRIVACY.md) · [Report an issue](../../issues)
+
+<img src="assets/store/ghost.png" width="860" alt="InstHush: seen receipts, on your terms">
+
+</div>
 
 > InstHush is not affiliated with, endorsed by or sponsored by Instagram or Meta. "Instagram" is a trademark of Meta Platforms, Inc.
 
-![InstHush video bar on a video](screenshots/en/video-bar.png)
+## Watch
+
+<div align="center">
+
+[![InstHush video: ghost mode, downloads and video tools](https://img.youtube.com/vi/i7MKBoRTjI0/maxresdefault.jpg)](https://www.youtube.com/watch?v=i7MKBoRTjI0)
+
+*Click to watch on YouTube.*
+
+</div>
+
+## At a glance
+
+<table>
+<tr>
+<td width="50%"><img src="assets/store/download.png" alt="Download from the video bar"></td>
+<td width="50%"><img src="assets/store/video.png" alt="Zoom, rotate, loop"></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/store/limit.png" alt="Daily limit for Reels and Explore"></td>
+<td width="50%"><img src="assets/store/themes.png" alt="Six themes"></td>
+</tr>
+</table>
 
 Works in Chrome, Brave, Edge, Firefox, Zen and LibreWolf. Open source (GPL-3.0-only), plain JavaScript, no build step. The screenshots in this page come from local test pages with made-up accounts such as `hesap_a`, never from a real account.
 
